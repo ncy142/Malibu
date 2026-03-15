@@ -14,7 +14,7 @@
     "props": [
         ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
         //needles
-        ["wheelspeed",   "malibu22_spadie_needle_speedo", "f1l","f1r","f6l",        {"x":179, "y":0, "z":-5}, {"x":0, "y":-3.5 , "z":-0},  {"x":0, "y":0, "z":0}, 0, 70, 12, 1.05],
+        ["wheelspeed",   "malibu22_spadie_needle_speedo", "f1l","f1r","f6l",        {"x":179, "y":0, "z":-5}, {"x":0, "y":-3.5 , "z":-0},  {"x":0, "y":0, "z":0}, 0, 170, 12, 1.05],
         ["rpm",          "malibu22_spadie_needle_tacho",  "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y":-0.02, "z":-0}, {"x":0, "y":0, "z":0}, 0, 12800, -200, 1.2],
     ],
     "controller": [
@@ -52,16 +52,14 @@
     "slotType" : "malibu22_spadie_gauges",
     "flexbodies": [
         ["mesh", "[group]:", "nonFlexMaterials"],
-        ["malibu22_spadie_gauges_metric", ["malibu22_spadie_dash"]],
+        ["malibu22_spadie_gauges", ["malibu22_spadie_dash"]],
         ["malibu22_spadie_decals_gauges", ["malibu22_spadie_dash"]],
     ],
     "props": [
         ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
         //needles
-        ["wheelspeed",   "malibu22_spadie_needle_speedo", "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y":-3.5 , "z":-0},  {"x":0, "y":0, "z":0}, 0, 70, 16, 1.1],
-        ["rpm",          "malibu22_spadie_needle_tacho",  "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y":-0.02, "z":-0}, {"x":0, "y":0, "z":0}, 0, 12800, 2540, 1.6],
-        ["fuel",         "malibu22_spadie_needle_fuel",   "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y": 100  , "z":0},   {"x":0, "y":0, "z":0}, 0, 50, 0.33, 1.15],
-        ["watertemp",    "malibu22_spadie_needle_temp",   "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y":-1.5 , "z":-0},  {"x":0, "y":0, "z":0}, 60, 120, 0, 1],
+        ["wheelspeed",   "malibu22_spadie_needle_speedo", "f1l","f1r","f6l",        {"x":179, "y":0, "z":-5}, {"x":0, "y":-3.5 , "z":-0},  {"x":0, "y":0, "z":0}, 0, 270, 12, 1.05],
+        ["rpm",          "malibu22_spadie_needle_tacho",  "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y":-0.02, "z":-0}, {"x":0, "y":0, "z":0}, 0, 12800, -200, 1.2],
     ],
     "controller": [
         ["fileName"],
