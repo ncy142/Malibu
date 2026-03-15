@@ -1,0 +1,92 @@
+{
+"malibu22_spadie_gauges_imperial": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Imperial Gauges",
+        "value":200,
+    },
+    "slotType" : "malibu22_spadie_gauges",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["malibu22_spadie_gauges", ["malibu22_spadie_dash"]],
+        ["malibu22_spadie_decals_gauges", ["malibu22_spadie_dash"]],
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        //needles
+        ["wheelspeed",   "malibu22_spadie_needle_speedo", "f1l","f1r","f6l",        {"x":179, "y":0, "z":-5}, {"x":0, "y":-3.5 , "z":-0},  {"x":0, "y":0, "z":0}, 0, 70, 12, 1.05],
+        ["rpm",          "malibu22_spadie_needle_tacho",  "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y":-0.02, "z":-0}, {"x":0, "y":0, "z":0}, 0, 12800, -200, 1.2],
+    ],
+    "controller": [
+        ["fileName"],
+        ["gauges/analogOdometer", {"name":"analogOdometer" }],
+    ],
+    "analogOdometer": {
+        "configuration": {
+            "materialName": "@malibu22_spadie_generic_odo",
+            "htmlPath": "local://local/vehicles/common/analogOdo.html",
+            "displayWidth":512,
+            "displayHeight":32,
+            "odometerDigits":7,
+            "odometerHasDecimalSeparator":true,
+            "continousText":true,
+            "unit":"imperial",
+            "bodyStyle":{
+                "background": "#96d29d",
+                "font-family": "Segment7",
+                "font-size": "28px",
+                "color": "black",
+                "margin": "2px 35px",
+                "transform": "scaleX(1.75)",
+                "transform-origin": "left",
+            }
+        },
+    },
+},
+"malibu22_spadie_gauges_metric": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Metric Gauges",
+        "value":200,
+    },
+    "slotType" : "malibu22_spadie_gauges",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["malibu22_spadie_gauges_metric", ["malibu22_spadie_dash"]],
+        ["malibu22_spadie_decals_gauges", ["malibu22_spadie_dash"]],
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        //needles
+        ["wheelspeed",   "malibu22_spadie_needle_speedo", "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y":-3.5 , "z":-0},  {"x":0, "y":0, "z":0}, 0, 70, 16, 1.1],
+        ["rpm",          "malibu22_spadie_needle_tacho",  "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y":-0.02, "z":-0}, {"x":0, "y":0, "z":0}, 0, 12800, 2540, 1.6],
+        ["fuel",         "malibu22_spadie_needle_fuel",   "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y": 100  , "z":0},   {"x":0, "y":0, "z":0}, 0, 50, 0.33, 1.15],
+        ["watertemp",    "malibu22_spadie_needle_temp",   "f1l","f1r","f6l",        {"x":177, "y":0, "z":0}, {"x":0, "y":-1.5 , "z":-0},  {"x":0, "y":0, "z":0}, 60, 120, 0, 1],
+    ],
+    "controller": [
+        ["fileName"],
+        ["gauges/analogOdometer", {"name":"analogOdometer" }],
+    ],
+    "analogOdometer": {
+        "configuration": {
+            "materialName": "@malibu22_spadie_generic_odo",
+            "htmlPath": "local://local/vehicles/common/analogOdo.html",
+            "displayWidth":512,
+            "displayHeight":32,
+            "odometerDigits":7,
+            "odometerHasDecimalSeparator":true,
+            "continousText":true,
+            "unit":"metric",
+            "bodyStyle":{
+                "background": "#96d29d",
+                "font-family": "Segment7",
+                "font-size": "28px",
+                "color": "black",
+                "margin": "2px 35px",
+                "transform": "scaleX(1.75)",
+                "transform-origin": "left",
+            }
+        },
+    },
+},
+}

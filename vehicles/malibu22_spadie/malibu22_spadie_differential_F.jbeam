@@ -1,0 +1,152 @@
+{
+"malibu22_spadie_differential_F": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Open Front Differential",
+        "value":250,
+    },
+    "slotType" : "malibu22_spadie_differential_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["malibu22_spadie_finaldrive_F","malibu22_spadie_finaldrive_F_411", "Front Final Drive", {"coreSlot":true}],
+    ],
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["torsionReactor", "torsionReactorF", "gearbox", 1],
+        ["differential", "differential_F", "torsionReactorF", 1, {"diffType":"open", "gearRatio": 1, "uiName":"Front Differential","defaultVirtualInertia":0.25}],
+    ],
+    "differential_F": {
+        "friction": 2.05,
+        "dynamicFriction": 0.00091,
+        "torqueLossCoef": 0.016,
+    },
+    "torsionReactorF": {
+        "torqueReactionNodes:":["e1l","e2l","e4r"],
+    },
+},
+"malibu22_spadie_differential_F_welded": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Welded Front Differential",
+        "value":300,
+    },
+    "slotType" : "malibu22_spadie_differential_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["malibu22_spadie_finaldrive_F","malibu22_spadie_finaldrive_F_411", "Front Final Drive", {"coreSlot":true}],
+    ],
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["torsionReactor", "torsionReactorF", "gearbox", 1],
+        ["differential", "differential_F", "torsionReactorF", 1, {"diffType":"locked", "lockTorque":10000, "gearRatio":1, "uiName":"Front Differential","defaultVirtualInertia":0.25}],
+    ],
+    "differential_F": {
+        "friction": 2.05,
+        "dynamicFriction": 0.00091,
+        "torqueLossCoef": 0.016,
+    },
+    "torsionReactorF": {
+        "torqueReactionNodes:":["e1l","e2l","e4r"],
+    },
+},
+"malibu22_spadie_differential_F_LSD": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Limited Slip Front Differential",
+        "value":650,
+    },
+    "slotType" : "malibu22_spadie_differential_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["malibu22_spadie_finaldrive_F","malibu22_spadie_finaldrive_F_411", "Front Final Drive", {"coreSlot":true}],
+    ],
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["torsionReactor", "torsionReactorF", "gearbox", 1],
+        ["differential", "differential_F", "torsionReactorF", 1, {"diffType":"viscous", "gearRatio": 1, "viscousCoef":30, "viscousTorque":600, "uiName":"Front Differential","defaultVirtualInertia":0.25}],
+    ],
+    "differential_F": {
+        "friction": 2.05,
+        "dynamicFriction": 0.00091,
+        "torqueLossCoef": 0.016,
+    },
+    "torsionReactorF": {
+        "torqueReactionNodes:":["e1l","e2l","e4r"],
+    },
+},
+"malibu22_spadie_differential_F_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race Limited Slip Front Differential",
+        "value":1350,
+    },
+    "slotType" : "malibu22_spadie_differential_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["malibu22_spadie_finaldrive_F","malibu22_spadie_finaldrive_F_411", "Front Final Drive", {"coreSlot":true}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$lsdpreload_F", "range", "N/m", "Differentials", 100, 0, 500, "Pre-load Torque", "Initial locking torque between left and right wheels", {"subCategory":"Front"}],
+        ["$lsdlockcoef_F", "range", "", "Differentials", 0.15, 0, 0.5, "Power Lock Rate", "Additional locking torque proportional to engine torque", {"minDis":0, "maxDis":100, "subCategory":"Front"}],
+        ["$lsdlockcoefrev_F", "range", "", "Differentials", 0.02, 0, 0.5, "Coast Lock Rate", "Additional locking torque proportional to engine braking", {"minDis":0, "maxDis":100, "subCategory":"Front"}],
+    ],
+    "powertrain" : [
+        ["type", "name", "inputName", "inputIndex"],
+        ["torsionReactor", "torsionReactorF", "gearbox", 1],
+        ["differential", "differential_F", "torsionReactorF", 1, {"diffType":"lsd", "gearRatio":1, "lsdPreload":"$lsdpreload_F", "lsdLockCoef":"$lsdlockcoef_F", "lsdRevLockCoef":"$lsdlockcoefrev_F", "uiName":"Front Differential","defaultVirtualInertia":0.25}],
+    ],
+    "differential_F": {
+        "friction": 2.05,
+        "dynamicFriction": 0.00091,
+        "torqueLossCoef": 0.016,
+    },
+    "torsionReactorF": {
+        "torqueReactionNodes:":["e1l","e2l","e4r"],
+    },
+},
+"malibu22_spadie_finaldrive_F_411": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"4.11:1 Front Final Drive",
+        "value":250,
+    },
+
+    "slotType" : "malibu22_spadie_finaldrive_F",
+
+    "torsionReactorF" : {
+        "gearRatio":4.11,
+    },
+},
+"malibu22_spadie_finaldrive_F_423": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"4.23:1 Front Final Drive",
+        "value":250,
+    },
+
+    "slotType" : "malibu22_spadie_finaldrive_F",
+
+    "torsionReactorF" : {
+        "gearRatio":4.23,
+    },
+},
+"malibu22_spadie_finaldrive_F_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race Adjustable Front Final Drive",
+        "value":650,
+    },
+
+    "slotType" : "malibu22_spadie_finaldrive_F",
+
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$finaldrive_F", "range", ":1", "Differentials", 4.23, 2.0, 6.0, "Final Drive Gear Ratio", "Torque multiplication ratio", {"subCategory":"Front", "stepDis":0.01}],
+    ],
+
+    "torsionReactorF" : {
+        "gearRatio":"$finaldrive_F",
+    },
+},
+}

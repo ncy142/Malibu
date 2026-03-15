@@ -1,0 +1,68 @@
+{
+  "malibu22_spadie_gauges_screen": {
+    "name": "malibu22_spadie_gauges_screen",
+    "mapTo": "malibu22_spadie_gauges_screen",
+    "class": "Material",
+    "persistentId": "e8c015b8-9adf-42cc-a421-e7007d9785bd",
+    "Stages": [
+      {
+        "colorMap": "@malibu22_spadie_gauges_screen",
+        "emissive": true,
+        "opacityMap": "vehicles/malibu22_spadie/gauges_display/etk800_gauges_screen.dds",
+        "specularMap": "vehicles/common/null.dds",
+        "specularPower": 32,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true
+  },
+  "malibu22_spadie_screen": {
+    "name": "malibu22_spadie_screen",
+    "mapTo": "malibu22_spadie_screen",
+    "class": "Material",
+    "persistentId": "cef62e79-05fc-46dc-87fa-b87c17f9635f",
+    "Stages": [
+      {
+        "baseColorMap": "@malibu22_spadie_screen",
+        "emissive": true,
+        "emissiveFactor": [
+          0.679252028,
+          0.679252028,
+          0.679252028
+        ],
+        "emissiveMap": "@malibu22_spadie_screen",
+        "metallicFactor": 0.768000007,
+        "roughnessFactor": 0.0460000001
+      },
+      {
+        "emissive": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "emissive": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "emissive": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  }
+}

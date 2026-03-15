@@ -1,0 +1,922 @@
+{
+  "camry23_spadie_gauges_on": {
+    "name": "camry23_spadie_gauges_on",
+    "mapTo": "camry23_spadie_gauges_on",
+    "class": "Material",
+    "persistentId": "890af89d-3a5f-41ba-8179-9ec4f2cbd6cf",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/midsize/midsize_gauges_ao.data.png",
+        "baseColorMap": "vehicles/midsize/midsize_gauges_b.color.png",
+        "emissiveFactor": [
+          0.835699022,
+          0.835699022,
+          0.835699022
+        ],
+        "emissiveMap": "vehicles/midsize/midsize_gauges_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/midsize/midsize_gauges_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_gauges_nm.normal.png",
+        "roughnessMap": "vehicles/midsize/midsize_gauges_r.data.png"
+      },
+      {
+        "emissiveFactor": null,
+        "metallicFactor": null
+      },
+      {
+        "emissiveFactor": null,
+        "metallicFactor": null
+      },
+      {
+        "emissiveFactor": null,
+        "metallicFactor": null
+      }
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "midsize_body": {
+    "name": "midsize_body",
+    "mapTo": "midsize_body",
+    "class": "Material",
+    "persistentId": "bf2beabc-c1af-4f89-afae-ed98b3cb32df",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/midsize/midsize_body_ao.data.png",
+        "baseColorMap": "/vehicles/midsize/midsize_body_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/midsize/midsize_body_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_body_nm.normal.png",
+        "roughnessMap": "/vehicles/midsize/midsize_body_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/midsize/midsize_body_ao.data.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/midsize/midsize_body_cc.data.png",
+        "clearCoatRoughnessFactor": 1,
+        "colorPaletteMap": "/vehicles/midsize/midsize_body_p.color.png",
+        "colorPaletteMapUseUV": 1,
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/midsize/midsize_body_nm.normal.png",
+        "opacityMap": "/vehicles/midsize/midsize_body_c.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "midsize_chmsl": {
+    "name": "midsize_chmsl",
+    "mapTo": "midsize_chmsl",
+    "class": "Material",
+    "persistentId": "56b70364-a8fc-4c14-a11d-7b05d83940aa",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_chmslcover": {
+    "name": "midsize_chmslcover",
+    "mapTo": "midsize_chmslcover",
+    "class": "Material",
+    "persistentId": "26f65465-4f9d-4e50-8afa-0ffc080d4664",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_engines": {
+    "name": "midsize_engines",
+    "mapTo": "midsize_engines",
+    "class": "Material",
+    "persistentId": "dd25ebdd-cf85-4d85-b91d-28e6b3075cbc",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/midsize/midsize_engines_ao.data.png",
+        "baseColorMap": "vehicles/midsize/midsize_engines_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/midsize/midsize_engines_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_engines_nm.normal.png",
+        "roughnessMap": "vehicles/midsize/midsize_engines_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "doubleSided": true,
+    "dynamicCubemap": true,
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "midsize_foglight": {
+    "name": "midsize_foglight",
+    "mapTo": "midsize_foglight",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_foglights": {
+    "name": "midsize_foglights",
+    "mapTo": "midsize_foglights",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_spadieacc": {
+    "name": "midsize_spadieacc",
+    "mapTo": "midsize_spadieacc",
+    "class": "Material",
+    "persistentId": "2ed39c9b-8478-4062-a151-c2e1aa669275",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/midsize/midsize_gauges_ao.data.png",
+        "baseColorMap": "vehicles/midsize/midsize_gauges_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/midsize/midsize_gauges_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_gauges_nm.normal.png",
+        "roughnessMap": "vehicles/midsize/midsize_gauges_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "midsize_gauges_metric": {
+    "name": "midsize_gauges_metric",
+    "mapTo": "midsize_gauges_metric",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/midsize/midsize_gauges_ao.data.png",
+        "baseColorMap": "vehicles/midsize/midsize_gauges_metric_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/midsize/midsize_gauges_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_gauges_nm.normal.png",
+        "roughnessMap": "vehicles/midsize/midsize_gauges_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "midsize_gauges_metric_on": {
+    "name": "midsize_gauges_metric_on",
+    "mapTo": "midsize_gauges_metric_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/midsize/midsize_gauges_metric_b.color.png",
+        "emissiveFactor": [
+          2,
+          2,
+          1.5
+        ],
+        "emissiveMap": "vehicles/midsize/midsize_gauges_metric_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/midsize/midsize_gauges_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_gauges_nm.normal.png",
+        "roughnessMap": "vehicles/midsize/midsize_gauges_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "glow": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "midsize_gauges_on": {
+    "name": "midsize_gauges_on",
+    "mapTo": "midsize_gauges_on",
+    "class": "Material",
+    "persistentId": "084fc877-a3a6-4a8f-99fb-a8552d1d56cc",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/midsize/midsize_gauges_b.color.png",
+        "emissiveFactor": [
+          2,
+          2,
+          1.5
+        ],
+        "emissiveMap": "vehicles/midsize/midsize_gauges_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/midsize/midsize_gauges_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_gauges_nm.normal.png",
+        "roughnessMap": "vehicles/midsize/midsize_gauges_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "glow": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "midsize_generic_odo": {
+    "name": "midsize_generic_odo",
+    "mapTo": "midsize_generic_odo",
+    "class": "Material",
+    "persistentId": "f8d782fc-c329-4422-bc6d-4c2175357cca",
+    "Stages": [
+      {
+        "baseColorMap": "@midsize_generic_odo",
+        "diffuseMapUseUV": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "midsize_glass": {
+    "name": "midsize_glass",
+    "mapTo": "midsize_glass",
+    "class": "Material",
+    "persistentId": "3e9216a6-becb-458d-bd2b-e449f6e1ef28",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/midsize/midsize_glass_b.color.png",
+        "normalMap": "vehicles/midsize/midsize_glass_nm.normal.png",
+        "opacityMap": "/vehicles/midsize/midsize_glass_op.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "midsize_glass_dmg": {
+    "name": "midsize_glass_dmg",
+    "mapTo": "midsize_glass_dmg",
+    "class": "Material",
+    "persistentId": "717dfd5a-354d-468e-836d-927bca0fa528",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/midsize/midsize_glass_dmg_b.color.png",
+        "metallicFactor": 0.388000011,
+        "normalMap": "vehicles/midsize/midsize_glass_dmg_nm.normal.png",
+        "opacityMap": "/vehicles/midsize/midsize_glass_dmg_op.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 20,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "midsize_glass_int": {
+    "name": "midsize_glass_int",
+    "mapTo": "midsize_glass_int",
+    "class": "Material",
+    "persistentId": "c5e207f8-baff-497f-970b-e738e0d617b8",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/midsize/midsize_glass_interior_b.color.png",
+        "normalMap": "vehicles/midsize/midsize_glass_interior_nm.normal.png",
+        "opacityMap": "/vehicles/midsize/midsize_glass_interior_op.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/midsize/midsize_glass_interior_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "midsize_glass_windshield_dmg": {
+    "name": "midsize_glass_windshield_dmg",
+    "mapTo": "midsize_glass_windshield_dmg",
+    "class": "Material",
+    "persistentId": "deca84f5-1e6c-4682-a977-c8af2664980f",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/midsize/midsize_glass_dmg_b.color.png",
+        "detailNormalMap": "/vehicles/common/windshield_dmg_n.dds",
+        "detailNormalMapStrength": 1.05999994,
+        "metallicFactor": 0.236000001,
+        "normalMap": "/vehicles/midsize/midsize_glass_dmg_nm.normal.DDS",
+        "opacityMap": "/vehicles/midsize/midsize_glass_dmg_op.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 20,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "midsize_headlight": {
+    "name": "midsize_headlight",
+    "mapTo": "midsize_headlight",
+    "class": "Material",
+    "persistentId": "c7813f82-d4ec-4df5-a994-d7810cdfe845",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_headlightcover": {
+    "name": "midsize_headlightcover",
+    "mapTo": "midsize_headlightcover",
+    "class": "Material",
+    "persistentId": "dc914dec-08ee-45d3-ae7f-5932c2fbf1db",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_interior": {
+    "name": "midsize_interior",
+    "mapTo": "midsize_interior",
+    "class": "Material",
+    "persistentId": "71e7a7bc-7a90-486c-a4c1-8e72120f069c",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/midsize/midsize_interior_ao.data.png",
+        "baseColorMap": "vehicles/midsize/midsize_interior_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/midsize/midsize_interior_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_interior_nm.normal.png",
+        "roughnessMap": "vehicles/midsize/midsize_interior_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "midsize_interior_racing": {
+    "name": "midsize_interior_racing",
+    "mapTo": "midsize_interior_racing",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/midsize/midsize_interior_racing_dash_ao.data.png",
+        "baseColorMap": "vehicles/midsize/midsize_interior_racing_dash_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/midsize/midsize_interior_racing_dash_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_interior_racing_dash_nm.normal.png",
+        "roughnessMap": "vehicles/midsize/midsize_interior_racing_dash_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "midsize_letters": {
+    "name": "midsize_letters",
+    "mapTo": "midsize_letters",
+    "class": "Material",
+    "persistentId": "5064b389-61eb-49af-a296-3919248710ce",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/midsize/midsize_letters_b.color.png",
+        "metallicFactor": 1,
+        "normalMap": "vehicles/midsize/midsize_letters_nm.normal.png",
+        "opacityMap": "/vehicles/midsize/midsize_letters_op.data.png",
+        "roughnessMap": "vehicles/midsize/midsize_letters_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 7,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "midsize_lights": {
+    "name": "midsize_lights",
+    "mapTo": "midsize_lights",
+    "class": "Material",
+    "persistentId": "20cfc76a-7a0c-4b5d-8858-8451bbada8ad",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/midsize/midsize_lights_ao.data.png",
+        "baseColorMap": "vehicles/midsize/midsize_lights_b.color.png",
+        "metallicFactor": 1,
+        "normalMap": "vehicles/midsize/midsize_lights_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/midsize/midsize_lights_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252,
+    "version": 1.5
+  },
+  "midsize_lights_dmg": {
+    "name": "midsize_lights_dmg",
+    "mapTo": "midsize_lights_dmg",
+    "class": "Material",
+    "persistentId": "411bf277-4e10-4164-b387-0fca62628baa",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/midsize/midsize_lights_ao.data.png",
+        "baseColorMap": "vehicles/midsize/midsize_lights_b.color.png",
+        "metallicFactor": 1,
+        "normalMap": "vehicles/midsize/midsize_lights_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/midsize/midsize_lights_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252,
+    "version": 1.5
+  },
+  "midsize_lights_on": {
+    "name": "midsize_lights_on",
+    "mapTo": "midsize_lights_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.3,
+          0.3,
+          0.3,
+          1
+        ],
+        "diffuseMap": "vehicles/midsize/midsize_lights_g.color.png",
+        "emissive": true,
+        "glow": true,
+        "normalMap": "vehicles/midsize/midsize_lights_nm.normal.png",
+        "pixelSpecular": true,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle"
+  },
+  "midsize_lights_on_intense": {
+    "name": "midsize_lights_on_intense",
+    "mapTo": "midsize_lights_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "diffuseMap": "vehicles/midsize/midsize_lights_g.color.png",
+        "emissive": true,
+        "glow": true,
+        "normalMap": "vehicles/midsize/midsize_lights_nm.normal.png",
+        "pixelSpecular": true,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252
+  },
+  "midsize_lowbeam": {
+    "name": "midsize_lowbeam",
+    "mapTo": "midsize_lowbeam",
+    "class": "Material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.3,
+          0.3,
+          0.3,
+          1
+        ],
+        "diffuseMap": "vehicles/midsize/midsize_lights_g.color.png",
+        "emissive": true,
+        "glow": true,
+        "normalMap": "vehicles/midsize/midsize_lights_nm.normal.png",
+        "pixelSpecular": true,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_mechanical": {
+    "name": "midsize_mechanical",
+    "mapTo": "midsize_mechanical",
+    "class": "Material",
+    "persistentId": "3fe3d553-a2de-4e29-8d18-3351b5bce90e",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/midsize/midsize_mechanical_ao.data.png",
+        "baseColorMap": "vehicles/midsize/midsize_mechanical_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/midsize/midsize_mechanical_m.data.png",
+        "normalMap": "vehicles/midsize/midsize_mechanical_nm.normal.png",
+        "roughnessMap": "vehicles/midsize/midsize_mechanical_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "midsize_mechanical_rally": {
+    "name": "midsize_mechanical_rally",
+    "mapTo": "midsize_mechanical_rally",
+    "class": "material",
+    "persistentId": "cc51ced0-737f-4386-b711-b202c4a46b85",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/midsize/midsize_mechanical_rally_ao.data.png",
+        "baseColorMap": "/vehicles/midsize/midsize_mechanical_rally_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/midsize/midsize_mechanical_rally_m.data.png",
+        "normalMap": "/vehicles/midsize/midsize_mechanical_rally_nm.normal.png",
+        "roughnessMap": "/vehicles/midsize/midsize_mechanical_rally_r.data.png"
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/midsize/midsize_mechanical_rally_ao.data.png",
+        "baseColorMap": "/vehicles/midsize/midsize_mechanical_rally_b.color.png",
+        "colorPaletteMap": "/vehicles/common/nullcolormask.dds",
+        "metallicMap": "/vehicles/midsize/midsize_mechanical_rally_m.data.png",
+        "normalMap": "/vehicles/midsize/midsize_mechanical_rally_nm.normal.png",
+        "roughnessMap": "/vehicles/midsize/midsize_mechanical_rally_r.data.png"
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "version": 1.5
+  },
+  "midsize_parkinglight": {
+    "name": "midsize_parkinglight",
+    "mapTo": "midsize_parkinglight",
+    "class": "Material",
+    "persistentId": "a607e0e5-11da-45a4-827c-42fd38e1515d",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_reverselight": {
+    "name": "midsize_reverselight",
+    "mapTo": "midsize_reverselight",
+    "class": "Material",
+    "persistentId": "9bc88331-8bc7-408c-a045-889c70e2c6a8",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_reverselightcover": {
+    "name": "midsize_reverselightcover",
+    "mapTo": "midsize_reverselightcover",
+    "class": "Material",
+    "persistentId": "eda9f236-08b1-4718-ada3-796b8d02160a",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_rollcage": {
+    "name": "midsize_rollcage",
+    "mapTo": "midsize_rollcage",
+    "class": "Material",
+    "persistentId": "9857f257-fa01-4593-9dd3-94034ce02cff",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/midsize/midsize_rollcage_ao.data.png",
+        "baseColorMap": "/vehicles/midsize/midsize_rollcage_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/midsize/midsize_rollcage_m.data.png",
+        "normalMap": "/vehicles/midsize/midsize_rollcage_nm.normal.png",
+        "roughnessMap": "/vehicles/midsize/midsize_rollcage_r.data.png"
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/midsize/midsize_rollcage_ao.data.png",
+        "baseColorMap": "/vehicles/midsize/midsize_rollcage_b.color.png",
+        "colorPaletteMap": "/vehicles/midsize/midsize_rollcage_c.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/midsize/midsize_rollcage_m.data.png",
+        "normalMap": "/vehicles/midsize/midsize_rollcage_nm.normal.png",
+        "roughnessMap": "/vehicles/midsize/midsize_rollcage_r.data.png"
+      },
+      {
+        "baseColorMap": "/vehicles/midsize/midsize_rollcage_b.color.png",
+        "colorPaletteMap": "/vehicles/common/nullcolormask.dds"
+      },
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "version": 1.5
+  },
+  "midsize_signal_L": {
+    "name": "midsize_signal_L",
+    "mapTo": "midsize_signal_L",
+    "class": "Material",
+    "persistentId": "40847c90-0ae5-4f52-b279-0e7e34487f62",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_signal_L_R": {
+    "name": "midsize_signal_L_R",
+    "mapTo": "midsize_signal_L_R",
+    "class": "Material",
+    "persistentId": "8bd4b1f7-a816-4a23-87f2-25f10f2f1645",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_signal_R": {
+    "name": "midsize_signal_R",
+    "mapTo": "midsize_signal_R",
+    "class": "Material",
+    "persistentId": "cd0389e3-ead5-4ffb-9404-f6b639667cac",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_signal_R_R": {
+    "name": "midsize_signal_R_R",
+    "mapTo": "midsize_signal_R_R",
+    "class": "Material",
+    "persistentId": "0f38a3f1-c045-410a-bb3d-3fecbe25e7ad",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_signalcover_L": {
+    "name": "midsize_signalcover_L",
+    "mapTo": "midsize_signalcover_L",
+    "class": "Material",
+    "persistentId": "05bd7159-72ad-4832-b98c-1e075bcd114c",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_signalcover_R": {
+    "name": "midsize_signalcover_R",
+    "mapTo": "midsize_signalcover_R",
+    "class": "Material",
+    "persistentId": "12c56094-368a-4b7d-aaa7-d4bca9f074dc",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_taillight_L": {
+    "name": "midsize_taillight_L",
+    "mapTo": "midsize_taillight_L",
+    "class": "Material",
+    "persistentId": "2ac23e65-0d60-42eb-89d3-725877801ac1",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_taillight_R": {
+    "name": "midsize_taillight_R",
+    "mapTo": "midsize_taillight_R",
+    "class": "Material",
+    "persistentId": "d5e69a1a-a10c-49d3-b222-575aa6e7bad6",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_taillightcover_L": {
+    "name": "midsize_taillightcover_L",
+    "mapTo": "midsize_taillightcover_L",
+    "class": "Material",
+    "persistentId": "dc514180-7c5f-482f-b822-c020deb63812",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_taillightcover_R": {
+    "name": "midsize_taillightcover_R",
+    "mapTo": "midsize_taillightcover_R",
+    "class": "Material",
+    "persistentId": "63456db4-ee7e-4ca1-913d-d14d300ab2c4",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "midsize_windshield_dmg": {
+    "name": "midsize_windshield_dmg",
+    "mapTo": "midsize_windshield_dmg",
+    "class": "Material",
+    "persistentId": "60e3bfa1-48f9-4b3e-b9e6-55ee5878f415",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/midsize/midsize_glass_b.color.png",
+        "normalMap": "vehicles/common/null_n.dds",
+        "opacityMap": "/vehicles/midsize/midsize_glass_op.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "misdize_stripped_interior": {
+    "name": "misdize_stripped_interior",
+    "mapTo": "misdize_stripped_interior",
+    "class": "Material",
+    "persistentId": "c9427650-79e7-481b-a508-e41c0e53254d",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/misdize_stripped_interior_ao.data.png",
+        "baseColorMap": "/vehicles/vivace/misdize_stripped_interior_b.color.png",
+        "metallicFactor": 1,
+        "normalMap": "vehicles/vivace/misdize_stripped_interior_nm.normal.png",
+        "roughnessMap": "/vehicles/vivace/misdize_stripped_interior_r.data.png"
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/misdize_stripped_interior_ao.data.png",
+        "baseColorMap": "/vehicles/vivace/misdize_stripped_interior_b.color.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/vivace/misdize_stripped_interior_cc.data.png",
+        "colorPaletteMap": "/vehicles/common/nullcolormaskR.dds",
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/vivace/misdize_stripped_interior_nm.normal.png",
+        "opacityMap": "/vehicles/vivace/misdize_stripped_interior_c.data.png"
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  }
+}

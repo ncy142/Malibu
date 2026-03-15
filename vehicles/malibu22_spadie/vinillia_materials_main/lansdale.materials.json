@@ -1,0 +1,1034 @@
+{
+  "lansdale_DRL": {
+    "name": "lansdale_DRL",
+    "mapTo": "lansdale_DRL",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_badges": {
+    "name": "lansdale_badges",
+    "mapTo": "lansdale_badges",
+    "class": "material",
+    "persistentId": "fb30a175-14c3-4606-8b9f-b10a5610500e",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/null.dds",
+        "baseColorMap": "/vehicles/lansdale/lansdale_badges_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/lansdale/lansdale_badges_m.data.png",
+        "normalMap": "/vehicles/lansdale/lansdale_badges_nm.normal.png",
+        "opacityMap": "/vehicles/lansdale/lansdale_badges_op.data.png",
+        "roughnessMap": "/vehicles/lansdale/lansdale_badges_r.data.png"
+      },
+      {
+        "metallicFactor": null
+      },
+      {
+        "metallicFactor": null
+      },
+      {
+        "metallicFactor": null
+      }
+    ],
+    "alphaRef": 7,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentRecvShadows": true,
+    "translucentZWrite": true,
+    "version": 1.5
+  },
+  "lansdale_brakelight": {
+    "name": "lansdale_brakelight",
+    "mapTo": "lansdale_brakelight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_brakelight_EU": {
+    "name": "lansdale_brakelight_EU",
+    "mapTo": "lansdale_brakelight_EU",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_brakelight_L": {
+    "name": "lansdale_brakelight_L",
+    "mapTo": "lansdale_brakelight_L",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_brakelight_R": {
+    "name": "lansdale_brakelight_R",
+    "mapTo": "lansdale_brakelight_R",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_foglights": {
+    "name": "lansdale_foglights",
+    "mapTo": "lansdale_foglights",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_gauges": {
+    "name": "lansdale_gauges",
+    "mapTo": "lansdale_gauges",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_gauges_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_gauges_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_gauges_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_gauges_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_gauges_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "lansdale_gauges_EU": {
+    "name": "lansdale_gauges_EU",
+    "mapTo": "lansdale_gauges_EU",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_gauges_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_gauges_EU_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_gauges_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_gauges_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_gauges_EU_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "lansdale_gauges_EU_on": {
+    "name": "lansdale_gauges_EU_on",
+    "mapTo": "lansdale_gauges_EU_on",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_gauges_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_gauges_EU_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "emissiveFactor": [
+          1,
+          0.999989986,
+          0.999989986
+        ],
+        "emissiveMap": "/vehicles/lansdale/lansdale_gauges_EU_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_gauges_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_gauges_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_gauges_EU_r.data.png"
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "lansdale_gauges_on": {
+    "name": "lansdale_gauges_on",
+    "mapTo": "lansdale_gauges_on",
+    "class": "Material",
+    "persistentId": "2132b99a-689c-43fe-88a5-583e2e2406c5",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_gauges_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_gauges_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "emissiveFactor": [
+          1,
+          0.999989986,
+          0.999989986
+        ],
+        "emissiveMap": "/vehicles/lansdale/lansdale_gauges_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_gauges_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_gauges_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_gauges_r.data.png"
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "pixelSpecular": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "lansdale_glass": {
+    "name": "lansdale_glass",
+    "mapTo": "lansdale_glass",
+    "class": "Material",
+    "persistentId": "a9a9f862-f477-4084-9974-9e41bcec79f0",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/lansdale/lansdale_glass_b.color.png",
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/lansdale/lansdale_glass_nm.normal.png",
+        "opacityMap": "/vehicles/lansdale/lansdale_glass_op.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/lansdale/lansdale_glass_r.data.png"
+      },
+      {
+        "metallicFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "metallicFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "metallicFactor": null,
+        "pixelSpecular": null
+      }
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "lansdale_glass_EU": {
+    "name": "lansdale_glass_EU",
+    "mapTo": "lansdale_glass_EU",
+    "class": "material",
+    "persistentId": "46fa89b6-f48c-49e2-8d76-27db24bf04ac",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/lansdale/lansdale_glass_EU_b.color.png",
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/lansdale/lansdale_glass_nm.normal.png",
+        "opacityMap": "/vehicles/lansdale/lansdale_glass_op.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/lansdale/lansdale_glass_r.data.png"
+      },
+      {
+        "metallicFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "metallicFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "metallicFactor": null,
+        "pixelSpecular": null
+      }
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "lansdale_glass_damage": {
+    "name": "lansdale_glass_damage",
+    "mapTo": "lansdale_glass_damage",
+    "class": "Material",
+    "persistentId": "6b8b24c6-5144-47fa-89f1-f4dc8992d935",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/lansdale/lansdale_glass_damage_b.color.png",
+        "detailNormalMapStrength": -1.10000002,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_glass_damage_m.data.png",
+        "normalDetailMapUseUV": 1,
+        "normalMap": "/vehicles/lansdale/lansdale_glass_damage_nm.normal.png",
+        "opacityMap": "/vehicles/lansdale/lansdale_glass_damage_op.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "roughnessMapUseUV": 1
+      },
+      {
+        "detailNormalMapStrength": null,
+        "metallicFactor": null,
+        "normalDetailMapUseUV": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null,
+        "roughnessMapUseUV": null
+      },
+      {
+        "detailNormalMapStrength": null,
+        "metallicFactor": null,
+        "normalDetailMapUseUV": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null,
+        "roughnessMapUseUV": null
+      },
+      {
+        "detailNormalMapStrength": null,
+        "metallicFactor": null,
+        "normalDetailMapUseUV": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null,
+        "roughnessMapUseUV": null
+      }
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "lansdale_glass_inner": {
+    "name": "lansdale_glass_inner",
+    "mapTo": "lansdale_glass_inner",
+    "class": "Material",
+    "persistentId": "3d8b2b6f-f626-41f9-a01b-03d57ca0ee2a",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/lansdale/lansdale_glass_b.color.png",
+        "normalMap": "/vehicles/lansdale/lansdale_glass_nm.normal.png",
+        "opacityMap": "/vehicles/lansdale/lansdale_glass_op.data.png",
+        "pixelSpecular": true
+      },
+      {
+        "pixelSpecular": null
+      },
+      {
+        "pixelSpecular": null
+      },
+      {
+        "pixelSpecular": null
+      }
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "lansdale_highbeam": {
+    "name": "lansdale_highbeam",
+    "mapTo": "lansdale_highbeam",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_interior": {
+    "name": "lansdale_interior",
+    "mapTo": "lansdale_interior",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_interior_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_interior_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_interior_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_interior_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_interior_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "lansdale_lights": {
+    "name": "lansdale_lights",
+    "mapTo": "lansdale_lights",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_lights_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_lights_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_lights_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_lights_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_lights_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "lansdale_lights_EU": {
+    "name": "lansdale_lights_EU",
+    "mapTo": "lansdale_lights_EU",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_lights_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_lights_EU_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_lights_EU_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_lights_EU_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_lights_EU_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "lansdale_lights_EU_dmg": {
+    "name": "lansdale_lights_EU_dmg",
+    "mapTo": "lansdale_lights_EU_dmg",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_lights_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_lights_EU_dmg_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_lights_EU_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_lights_EU_dmg_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_lights_EU_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "lansdale_lights_EU_on": {
+    "name": "lansdale_lights_EU_on",
+    "mapTo": "lansdale_lights_EU_on",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_lights_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_lights_EU_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "emissiveFactor": [
+          3.92156911,
+          3.92156911,
+          3.92156911
+        ],
+        "emissiveMap": "/vehicles/lansdale/lansdale_lights_EU_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_lights_EU_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_lights_EU_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_lights_EU_r.data.png"
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "lansdale_lights_EU_on_intense": {
+    "name": "lansdale_lights_EU_on_intense",
+    "mapTo": "lansdale_lights_EU_on_intense",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_lights_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_lights_EU_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "emissiveFactor": [
+          4.70588303,
+          4.70588303,
+          4.70588303
+        ],
+        "emissiveMap": "/vehicles/lansdale/lansdale_lights_EU_g_intense.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_lights_EU_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_lights_EU_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_lights_EU_r.data.png"
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "lansdale_lights_dmg": {
+    "name": "lansdale_lights_dmg",
+    "mapTo": "lansdale_lights_dmg",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_lights_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_lights_dmg_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_lights_dmg_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_lights_dmg_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_lights_dmg_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "lansdale_lights_on": {
+    "name": "lansdale_lights_on",
+    "mapTo": "lansdale_lights_on",
+    "class": "Material",
+    "persistentId": "0ab8f277-8565-48ba-9856-09b39f853058",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_lights_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_lights_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "emissiveFactor": [
+          3.92156911,
+          3.92156911,
+          3.92156911
+        ],
+        "emissiveMap": "/vehicles/lansdale/lansdale_lights_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_lights_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_lights_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_lights_r.data.png"
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "lansdale_lights_on_intense": {
+    "name": "lansdale_lights_on_intense",
+    "mapTo": "lansdale_lights_on_intense",
+    "class": "Material",
+    "persistentId": "8bcd3857-7079-4c7e-9ed8-48dc7f2d1e53",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_lights_ao.data.png",
+        "baseColorMap": "vehicles/lansdale/lansdale_lights_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "emissiveFactor": [
+          4.70588303,
+          4.70588303,
+          4.70588303
+        ],
+        "emissiveMap": "/vehicles/lansdale/lansdale_lights_g_intense.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/lansdale/lansdale_lights_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_lights_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/lansdale/lansdale_lights_r.data.png"
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      },
+      {
+        "clearCoatRoughnessFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "pixelSpecular": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "lansdale_lowbeam": {
+    "name": "lansdale_lowbeam",
+    "mapTo": "lansdale_lowbeam",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_lowhighbeam": {
+    "name": "lansdale_lowhighbeam",
+    "mapTo": "lansdale_lowhighbeam",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_main": {
+    "name": "lansdale_main",
+    "mapTo": "lansdale_main",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_main_ao.data.png",
+        "baseColorMap": "/vehicles/lansdale/lansdale_main_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/lansdale/lansdale_main_m.data.png",
+        "normalMap": "vehicles/lansdale/lansdale_main_nm.normal.png",
+        "roughnessMap": "/vehicles/lansdale/lansdale_main_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/lansdale/lansdale_main_ao.data.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/lansdale/lansdale_main_cc.data.png",
+        "clearCoatRoughnessFactor": 1,
+        "colorPaletteMap": "/vehicles/common/nullcolormaskR.dds",
+        "colorPaletteMapUseUV": 1,
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/lansdale/lansdale_main_nm.normal.png",
+        "opacityMap": "/vehicles/lansdale/lansdale_main_c.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "lansdale_paint": {
+    "name": "lansdale_paint",
+    "mapTo": "lansdale_paint",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.7,
+          0.2,
+          0.2,
+          1
+        ],
+        "metallicFactor": 0.5,
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/common/null.dds",
+        "roughnessFactor": 0.05
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "version": 1.5
+  },
+  "lansdale_plastic": {
+    "name": "lansdale_plastic",
+    "mapTo": "lansdale_plastic",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.2,
+          0.2,
+          0.2,
+          1
+        ],
+        "metallicFactor": 0.5,
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/common/null.dds",
+        "roughnessFactor": 0.5
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "version": 1.5
+  },
+  "lansdale_reverselight": {
+    "name": "lansdale_reverselight",
+    "mapTo": "lansdale_reverselight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_screen": {
+    "name": "lansdale_screen",
+    "mapTo": "lansdale_screen",
+    "class": "Material",
+    "persistentId": "274610d2-6c80-434e-854f-e43125836627",
+    "Stages": [
+      {
+        "baseColorMap": "@lansdale_screen",
+        "diffuseMapUseUV": 1,
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "emissiveMap": "@lansdale_screen",
+        "emissiveMapUseUV": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "lansdale_signal_L": {
+    "name": "lansdale_signal_L",
+    "mapTo": "lansdale_signal_L",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_signal_L_EU": {
+    "name": "lansdale_signal_L_EU",
+    "mapTo": "lansdale_signal_L_EU",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_signal_R": {
+    "name": "lansdale_signal_R",
+    "mapTo": "lansdale_signal_R",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_signal_RL": {
+    "name": "lansdale_signal_RL",
+    "mapTo": "lansdale_signal_RL",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_signal_RR": {
+    "name": "lansdale_signal_RR",
+    "mapTo": "lansdale_signal_RR",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_signal_R_EU": {
+    "name": "lansdale_signal_R_EU",
+    "mapTo": "lansdale_signal_R_EU",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "lansdale_taillight": {
+    "name": "lansdale_taillight",
+    "mapTo": "lansdale_taillight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_lettering": {
+    "name": "legran_lettering",
+    "mapTo": "legran_lettering",
+    "class": "Material",
+    "persistentId": "2e3acc10-c7c0-4695-bfa2-83d217baa025",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/legran/legran_lettering_d.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/legran/legran_lettering_op.data.png",
+        "normalMap": "/vehicles/legran/legran_lettering_n.normal.png",
+        "opacityMap": "/vehicles/legran/legran_lettering_op.data.png",
+        "roughnessMap": "/vehicles/legran/legran_lettering_r.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 7,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "soliad_badge": {
+    "name": "soliad_badge",
+    "mapTo": "soliad_badge",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.9,
+          0.9,
+          0.9,
+          1
+        ],
+        "metallicFactor": 1,
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/common/null.dds",
+        "roughnessFactor": 0.1
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "version": 1.5
+  }
+}

@@ -1,0 +1,860 @@
+{
+"malibu22_spadie_dashboard": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Dashboard",
+        "value":500,
+    },
+    "slotType" : "malibu22_spadie_dashboard",
+    "slots": [
+        ["type", "default", "description"],
+        ["malibu22_spadie_steer","malibu22_spadie_steer", "Steering Wheel"],
+        ["malibu22_spadie_gauges","malibu22_spadie_gauges_imperial", "Gauges", {"coreSlot":true}],
+        ["malibu22_spadie_shifter","malibu22_spadie_shifter_A", "Shifter", {"coreSlot":true}],
+        ["malibu22_spadie_shiftlight","", "Shift Light"],
+        ["malibu22_spadie_interrior_accessory","", "Dashboard Accessories"],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["malibu22_spadie_dashboard", ["malibu22_spadie_dash"]],
+        ["malibu22_spadie_footrest", ["malibu22_spadie_body"]],
+        ["malibu22_spadie_decals_gauges_stuff", ["malibu22_spadie_dash"]],
+        ["malibu22_spadie_mirror_int", ["malibu22_spadie_body"]],
+    ],
+    "mirrors": [
+        ["mesh", "idRef:", "id1:", "id2:"],
+        ["malibu22_spadie_mirror_int","rf1","rf1r","rf2",{"refBaseTranslation":{"x":0.00,"y":-0.08,"z":-0.09},"baseRotationGlobal":{"x":6,"y":0,"z":19}}],
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        //pedals
+        ["brake",        "malibu22_spadie_pedal_brake",    "f1l","f1r","f6l",        {"x":-2 "y":0, "z":180},   {"x":-20, "y":0, "z":0},   {"x":0.0, "y":0, "z":0}, 0, 1, 0, 1],
+        ["throttle",     "malibu22_spadie_pedal_gas",      "f1l","f1r","f6l",        {"x":-2, "y":0, "z":180},   {"x":-14, "y":0, "z":0},   {"x":0.0, "y":0, "z":0}, 0, 1, 0, 1],
+        //turn signal stalk
+        ["turnsignal",   "malibu22_spadie_signalstalk",   "dshl","dsh","int_strw",        {"x":0, "y":0, "z":180}, {"x":0, "y":0, "z":-15},   {"x":0, "y":0, "z":0}, -1, 1, 0.0, 1],
+        //wiper stalk
+        ["wipers",       "malibu22_spadie_wiperstalk",   "dshl","dsh","int_strw",        {"x":-20, "y":-15, "z":160}, {"x":0, "y":0, "z":15},    {"x":0, "y":0, "z":0}, -1, 1, 0.0, 1],
+        //parkingbrake
+        ["parkingbrake", "malibu22_spadie_handbrake",  "f7r","f7l","f8r",        {"x":90, "y":0, "z":0} ,   {"x":-22, "y":0, "z":0},   {"x":0.0, "y":0, "z":0}, 0, 1, 0, 1],
+    ],
+    "controller": [
+        ["fileName"],
+        ["beamNavigator", {"screenMaterialName": "@malibu22_spadie_screen", "htmlFilePath": "local://local/vehicles/common/ETK_navi_screen.html", "name":"malibu22_spadie_navi"}],
+    ],
+    "camerasInternal":[
+        ["type", "x", "y", "z", "fov", "id1:", "id2:", "id3:", "id4:", "id5:", "id6:"],
+        {"nodeWeight":1.0},
+        {"beamSpring":280,"beamDamp":50},
+        {"selfCollision":true},
+        {"collision":true},
+        //dash cam
+        ["dash", 0.368, 0.17, 1.16, 55, "f1ll","f2r","f3ll","f4ll","f4r",[], {"beamDeform":5001000,"beamStrength":"FLT_MAX"}],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_CLOTH"},
+         {"selfCollision":true},
+         {"collision":true},
+
+         //interior flexbody
+         {"group":"malibu22_spadie_dash"},
+         {"nodeWeight":5.0},
+         ["dshr", -0.36500, -0.54000, 0.82000],
+         ["dsh", 0.00000, -0.54000, 0.82000],
+         ["dshl", 0.36500, -0.54000, 0.82000],
+         ["int_strw", 0.36500, -0.49000, 0.84000],
+         {"group":""},
+         {"nodeWeight":0.2},
+         ["int_pbrk", 0.04000, -0.08000, 0.55000],
+         ["int_shft", -0.02000, -0.34000, 0.52000],
+    ],
+    "torsionbars":[
+       ["id1:", "id2:", "id3:", "id4:"],
+        //rigify the column
+        {"spring":20000, "damp":1, "deform":18000, "strength":28000},
+        ["int_strw", "dshl", "dsh", "f5l"],
+
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+          //dash board
+          {"beamSpring":869146.6,"beamDamp":142.73},
+          {"beamDeform":12400,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":""},
+          ["dshr","f5r"],
+          ["dshl","f5l"],
+          ["dshr","f6r"],
+          ["dshl","f6l"],
+          ["dshr","f1r"],
+          ["dshl","f1l"],
+          ["dshr","f5rr"],
+          ["dshl","f5ll"],
+          ["dshr","f6rr"],
+          ["dshl","f6ll"],
+          ["dshl","dshr"],
+          ["dsh","f5r"],
+          ["dsh","f5l"],
+          ["dsh","f6r"],
+          ["dsh","f6l"],
+          ["dsh","f1r"],
+          ["dsh","f1l"],
+          ["dshl","dsh"],
+          ["dshr","dsh"],
+          ["dsh","int_strw"],
+          ["dshl","int_strw"],
+          {"beamSpring":160100,"beamDamp":142.73},
+          {"beamDeform":70300,"beamStrength":"FLT_MAX"},
+          ["int_pbrk","f5l"],
+          ["int_pbrk","f5r"],
+          ["int_pbrk","f2r"],
+          ["int_pbrk","f2l"],
+          ["int_shft","f5l"],
+          ["int_shft","f5r"],
+          ["int_shft","f2r"],
+          ["int_shft","f2l"],
+    ],
+    "triangles":[
+        ["id1:", "id2:", "id3:"],
+        {"groundModel":"plastic"},
+        //Dashboard
+        {"dragCoef":0},
+        ["dshl", "f6ll", "f5ll"],
+        ["f6ll", "dshl", "f6l"],
+        ["f6l", "dshl", "dsh"],
+        ["dsh", "f6r", "f6l"],
+        ["dsh", "dshr", "f6r"],
+        ["f6r", "dshr", "f6rr"],
+        ["dshr", "f5rr", "f6rr"],
+        ["dshl", "f5ll", "f5l"],
+        ["f5l", "dsh", "dshl"],
+        ["f5l", "f5r", "dsh"],
+        ["dsh", "f5r", "dshr"],
+        ["dshr", "f5r", "f5rr"],
+    ],
+},
+"malibu22_spadie_shifter_A": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Automatic Shifter",
+        "value":80,
+    },
+    "slotType" : "malibu22_spadie_shifter",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["malibu22_spadie_shifterbase_A", ["malibu22_spadie_dash","malibu22_spadie_body"]],
+    ],
+    "controller": [
+        ["fileName"],
+        ["propAnimation/singleAxisLever", {"name":"singleAxisLever"}],
+
+    ]
+    "singleAxisLever": {
+        "gearCoordinates": [
+            ["gearIndex",   "value"]
+            [1,            0.0]
+            [2,             0.2]
+            [3,             0.4]
+            [4,             0.6]
+            [5,             0.8]
+            [6,             1]
+        ]
+        "shiftSoundNode:":["int_shft"]
+        "shiftSoundEventSingleAxisLever": "event:>Vehicle>Interior>Gearshift>automatic_04",
+        "shiftSoundVolumeSingleAxisLever": 0.5,
+    },
+    "props": [
+        ["func" ,  "mesh",               "idRef:","idX:","idY:", "baseRotation",           "rotation",              "translation",           "min", "max", "offset", "multiplier"],
+        //automatic transmission
+        ["gearModeIndex"   ,"malibu22_spadie_shifter_A", "f7r","f7l","f8r", {"x":85, "y":0, "z":0}, {"x":1, "y":0, "z":0}     , {"x":0, "y":0.15, "z":0.01}, 0, 1, -0.2, 1],
+    ],
+},
+"malibu22_spadie_shifter_M": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Manual Shifter",
+        "value":80,
+    },
+    "slotType" : "malibu22_spadie_shifter",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["malibu22_spadie_shifterbase_M", ["malibu22_spadie_dash","malibu22_spadie_body"]],
+        ["malibu22_spadie_shifter_base_M", ["malibu22_spadie_dash","malibu22_spadie_body","malibu22_spadie_shifterknob_M","malibu22_spadie_shifterboot_M"]],
+        ["malibu22_spadie_shifter_knob_M", ["malibu22_spadie_shifterknob_M"]],
+    ],
+    "props": [
+        ["func"      , "mesh"              , "idRef:", "idX:", "idY:"            , "baseRotation"        , "rotation"                 , "translation"        , "min", "max", "offset", "multiplier"],
+        //manual transmission
+        ["clutch"     ,"malibu22_spadie_pedal_clutch", "f1l","f1r","f6l", {"x":0, "y":0, "z":180}, {"x":-20, "y":0, "z":0}    , {"x":0.0, "y":0, "z":0}, 0, 1, 0, 1],
+    ],
+    "controller": [
+        ["fileName"],
+        ["propAnimation/hPattern", {"name":"hPattern"}],
+
+    ]
+    "hPattern": {
+        "gearCoordinates": [
+            ["gearIndex",   "x",      "y"]
+            [-1,            1.0,      -1.0]
+            [0,             0.0,      -0.0]
+            [1,            -1.0,       0.85]
+            [2,            -1.0,      -1.0]
+            [3,             0.0,       0.85]
+            [4,             0.0,      -1.0]
+            [5,             1.0,       0.85]
+        ]
+        "shiftSoundNode:":["sh_b3"]
+        "shiftSoundEventHPatternGearIn": "event:>Vehicle>Interior>Gearshift>manual_modern_04_in",
+        "shiftSoundEventHPatternGearOut": "event:>Vehicle>Interior>Gearshift>manual_modern_04_out",
+        "shiftSoundVolumeHPatternGearIn": 0.5,
+        "shiftSoundVolumeHPatternGearOut": 0.5,
+    },
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         {"collision":true},
+         {"selfCollision":false},
+         //--SHIFTER---  has to be jbeamed to allow for realistic movement
+         {"group":"malibu22_spadie_shifterboot_M"},
+         {"nodeWeight":0.45}
+         ["sh_b1l", 0.05500, -0.37900, 0.58700],
+         ["sh_b1r", -0.05500, -0.37900, 0.58700],
+         ["sh_b2l", 0.05000, -0.24600, 0.56800],
+         ["sh_b2r", -0.05000, -0.24600, 0.56800],
+
+         ["sh_b3", 0.00000, -0.31000, 0.56000],
+         {"selfCollision":true},
+         {"group":["malibu22_spadie_shifterknob_M","malibu22_spadie_shifterboot_M"]},
+         {"nodeWeight":0.5}
+         ["sh_l3", 0.00000, -0.30000, 0.70400],
+         {"selfCollision":false},
+         {"nodeWeight":0.30}
+         {"group":"malibu22_spadie_shifterknob_M"},
+         ["sh_l1l", 0.03000, -0.33500, 0.65000],
+         ["sh_l1r", -0.03000, -0.33500, 0.65000],
+         ["sh_l2l", 0.03000, -0.27500, 0.64500],
+         ["sh_l2r", -0.03000, -0.27500, 0.64500],
+         {"selfCollision":false},
+         {"collision":true},
+         {"group":""},
+    ],
+    "beams":[
+        ["id1:", "id2:"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        //main shape
+        {"beamSpring":401000,"beamDamp":55},
+        {"beamDeform":259000,"beamStrength":"FLT_MAX"},
+        {"deformLimitExpansion":1.1},
+        ["sh_b1l", "sh_b1r"],
+        ["sh_b1l", "sh_b2l"],
+        ["sh_b1l", "sh_b2r"],
+        ["sh_b1r", "sh_b2l"],
+        ["sh_b1r", "sh_b2r"],
+        ["sh_b2l", "sh_b2r"],
+
+        ["sh_b1l", "sh_b3"],
+        ["sh_b1r", "sh_b3"],
+        ["sh_b2l", "sh_b3"],
+        ["sh_b2r", "sh_b3"],
+        //lever
+        {"beamSpring":121000,"beamDamp":35},
+        ["sh_l3", "sh_l1l"],
+        ["sh_l3", "sh_l1r"],
+        ["sh_l3", "sh_l2l"],
+        ["sh_l3", "sh_l2r"],
+
+        ["sh_l1l", "sh_l1r"],
+        ["sh_l1l", "sh_l2l"],
+        ["sh_l1l", "sh_l2r"],
+
+        ["sh_l1r", "sh_l2l"],
+        ["sh_l1r", "sh_l2r"],
+        ["sh_l2l", "sh_l2r"],
+        //hinge
+        {"beamSpring":121000,"beamDamp":25},
+        ["sh_b3", "sh_l3"],
+        ["sh_b3", "sh_l1l"],
+        ["sh_b3", "sh_l1r"],
+        ["sh_b3", "sh_l2l"],
+        ["sh_b3", "sh_l2r"],
+
+        //stabilize the shifter
+        {"beamSpring":0,"beamDamp":175},
+        ["sh_b1l", "sh_l3"],
+        ["sh_b1r", "sh_l3"],
+        ["sh_b2l", "sh_l3"],
+        ["sh_b2r", "sh_l3"],
+        {"breakGroup":""},
+        //attach to body
+        {"beamSpring":300000,"beamDamp":70},
+        {"beamDeform":1000,"beamStrength":"FLT_MAX"},
+        ["sh_b1l", "f7r"],
+        ["sh_b1r", "f7r"],
+        ["sh_b2l", "f7r"],
+        ["sh_b2r", "f7r"],
+        ["sh_b3", "f7r"],
+
+        ["sh_b1l", "f7l"],
+        ["sh_b1r", "f7l"],
+        ["sh_b2l", "f7l"],
+        ["sh_b2r", "f7l"],
+        ["sh_b3", "f7l"],
+
+        ["sh_b1l", "f2r"],
+        ["sh_b1r", "f2r"],
+        ["sh_b2l", "f2r"],
+        ["sh_b2r", "f2r"],
+        ["sh_b3", "f2r"],
+
+        ["sh_b1l", "f2l"],
+        ["sh_b1r", "f2l"],
+        ["sh_b2l", "f2l"],
+        ["sh_b2r", "f2l"],
+        ["sh_b3", "f2l"],
+
+        ["sh_b1l", "f1r"],
+        ["sh_b1r", "f1r"],
+        ["sh_b2l", "f1r"],
+        ["sh_b2r", "f1r"],
+        ["sh_b3", "f1r"],
+
+        ["sh_b1l", "f1l"],
+        ["sh_b1r", "f1l"],
+        ["sh_b2l", "f1l"],
+        ["sh_b2r", "f1l"],
+        ["sh_b3", "f1l"],
+        {"beamSpring":200000,"beamDamp":20},
+        ["sh_b1l", "dshr"],
+        ["sh_b1r", "dshr"],
+        ["sh_b2l", "dshr"],
+        ["sh_b2r", "dshr"],
+        ["sh_b3",  "dshr"],
+        ["sh_b1l", "dshl"],
+        ["sh_b1r", "dshl"],
+        ["sh_b2l", "dshl"],
+        ["sh_b2r", "dshl"],
+        ["sh_b3",  "dshl"],
+        //support beams
+        {"beamType":"|SUPPORT","beamPrecompression":0.875,"beamLongBound":2},
+        {"beamSpring":201000,"beamDamp":50},
+        {"beamDeform":16000,"beamStrength":"FLT_MAX"},
+        ["sh_l1r", "sh_b2l"],
+        ["sh_l2r", "sh_b1l"],
+        ["sh_l2l", "sh_b1r"],
+        ["sh_l1l", "sh_b2r"],
+        {"beamPrecompression":0.827}
+        ["sh_l3", "sh_b1l"],
+        ["sh_l3", "sh_b1r"],
+        ["sh_l3", "sh_b2l"],
+        ["sh_l3", "sh_b2r"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+    ],
+    "torsionHydros": [
+        ["id1:","id2:","id3:","id4:"],
+        {"spring":200, "damp":1, "deform":"FLT_MAX", "strength":1000},
+        ["sh_b2l","sh_b1l","sh_b1r","sh_l3",  {"inputSource":"hPatternAxisY","factor":-0.25}],
+        ["sh_b1r","sh_b1l","sh_b2l","sh_l3",  {"inputSource":"hPatternAxisX","factor":-0.20}],
+        ["sh_b1r","sh_b2r","sh_b2l","sh_l3",  {"inputSource":"hPatternAxisY","factor":0.25}],
+        ["sh_b2l","sh_b2r","sh_b1r","sh_l3",  {"inputSource":"hPatternAxisX","factor":0.20}],
+    ],
+    "torsionbars": [
+        ["id1:", "id2:", "id3:", "id4:"],
+        {"spring":100, "damp":0.2, "deform":30000, "strength":1000},
+        ["sh_b1r", "sh_b3", "sh_l3", "sh_l1r"],
+        ["sh_b2r", "sh_b3", "sh_l3", "sh_l2r"],
+        ["sh_b2l", "sh_b3", "sh_l3", "sh_l2l"],
+        ["sh_b1l", "sh_b3", "sh_l3", "sh_l1l"],
+
+    ],
+},
+"malibu22_spadie_seat_FL": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Driver Seat",
+        "value":280,
+    },
+    "slotType" : "malibu22_spadie_seat_FL",
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["malibu22_spadie_seat_FL" ["malibu22_spadie_seat_FL","malibu22_spadie_floor"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"collision":true},
+         {"selfCollision":false},
+         {"nodeWeight":15},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //seats flexbody
+         {"group":"malibu22_spadie_seat_FL"},
+         {"collision":true},
+         {"selfCollision":true},
+         {"nodeWeight":2.6},
+         ["sf1l", 0.11000, -0.35000, 0.53000],
+         ["sf1ll", 0.63000, -0.35000, 0.53000],
+         ["sf2l", 0.14000, 0.10000, 0.43000],
+         ["sf2ll", 0.60000, 0.10000, 0.43000],
+         ["sf3l", 0.20000, 0.42998, 1.17000],
+         ["sf3ll", 0.54000, 0.42998, 1.17000],
+         {"group":""},
+    ],
+    "beams":[
+        ["id1:", "id2:"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        //main shape
+        {"beamSpring":2501000,"beamDamp":300},
+        {"beamDeform":10000,"beamStrength":"FLT_MAX"},
+        {"deformLimitExpansion":1.1},
+        ["sf1l", "sf1ll"],
+        ["sf2l", "sf2ll"],
+        ["sf3l", "sf3ll"],
+        ["sf1l", "sf2l"],
+        ["sf2l", "sf3l"],
+        ["sf1ll", "sf2ll"],
+        ["sf2ll", "sf3ll"],
+        //crossing
+        {"beamDeform":7000,"beamStrength":"FLT_MAX"},
+        {"deformLimitExpansion":""},
+        ["sf1ll", "sf2l"],
+        ["sf2ll", "sf1l"],
+        ["sf2l", "sf3ll"],
+        ["sf3l", "sf2ll"],
+        //corners
+        {"beamDeform":3000},
+        ["sf3l", "sf1l"],
+        ["sf3ll", "sf1ll"],
+
+        //damper
+        {"beamSpring":0,"beamDamp":800},
+        ["sf3ll", "r5ll"],
+        ["sf3l", "r1ll"],
+
+        //attach
+        {"beamSpring":282000,"beamDamp":37.6},
+        {"beamDeform":6000,"beamStrength":"FLT_MAX"},
+        ["sf2l", "f3l"],
+        ["sf2l", "f2l"],
+        ["sf2l", "f3r"],
+        ["sf2l", "f2r"],
+
+        ["sf2ll", "f3l"],
+        ["sf2ll", "f3ll"],
+        ["sf2ll", "f2l"],
+        ["sf1l", "f2l"],
+        ["sf1ll", "f2l"],
+        ["sf1ll", "f2ll"],
+        ["sf1l", "f3l"],
+
+        //limiter
+        {"beamType":"|SUPPORT", "beamLongBound":5},
+        {"beamSpring":470000,"beamDamp":141},
+        {"beamPrecompression":0.9},
+        {"beamDeform":6000,"beamStrength":"FLT_MAX"},
+        {"optional":true},
+        ["sf3l", "tb2"],
+        ["sf3l", "p7l"],
+        ["sf3l", "p8l"],
+        ["sf3l", "rf2l"],
+        ["sf2l", "p4l"],
+        ["sf2l", "p3l"],
+        ["sf1l", "f1ll"],
+        ["sf1l", "f3ll"],
+
+        //to other seat
+        {"beamPrecompression":0.7},
+        ["sf1rr", "sf1ll"],
+        ["sf2rr", "sf2ll"],
+        ["sf3rr", "sf3ll"],
+        {"optional":false},
+        {"beamPrecompression":1},
+
+        {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        {"deformLimitExpansion":""},
+    ],
+    "triangles":[
+        ["id1:", "id2:", "id3:"],
+        {"groundModel":"metal"},
+        {"dragCoef":0},
+        //front seat
+        ["sf2l",  "sf1l",  "sf1ll"],
+        ["sf1ll", "sf2ll", "sf2l"],
+        ["sf3l",  "sf2l",  "sf2ll"],
+        ["sf2ll", "sf3ll", "sf3l"],
+    ],
+},
+"malibu22_spadie_seat_FR": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Passenger Seat",
+        "value":280,
+    },
+    "slotType" : "malibu22_spadie_seat_FR",
+    "slots": [
+        ["type", "default", "description"],
+        ["load_seat_FR","", "Front Seat Load", {
+            "nodeMove":{"x":-0.38, "y":-0.20, "z":0.61},
+            "variables":{
+                "$rotx":-8, "$roty":0, "$rotz":90,
+                "$group":"malibu22_spadie_seat_FR",
+            },
+        }],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["malibu22_spadie_seat_FR" ["malibu22_spadie_seat_FR","malibu22_spadie_floor"]],
+    ],
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"collision":true},
+         {"selfCollision":false},
+         {"nodeWeight":15},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //seats flexbody
+         {"group":"malibu22_spadie_seat_FR"},
+         {"collision":true},
+         {"selfCollision":true},
+         {"nodeWeight":2.6},
+         ["sf1r", -0.11000, -0.35000, 0.53000],
+         ["sf1rr", -0.63000, -0.35000, 0.53000],
+         ["sf2r", -0.14000, 0.10000, 0.43000],
+         ["sf2rr", -0.60000, 0.10000, 0.43000],
+         ["sf3r", -0.20000, 0.42998, 1.17000],
+         ["sf3rr", -0.54000, 0.42998, 1.17000],
+         {"group":""},
+    ],
+    "beams":[
+        ["id1:", "id2:"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        //main shape
+        {"beamSpring":2501000,"beamDamp":300},
+        {"beamDeform":10000,"beamStrength":"FLT_MAX"},
+        {"deformLimitExpansion":1.1},
+        ["sf1r", "sf1rr"],
+        ["sf2r", "sf2rr"],
+        ["sf3r", "sf3rr"],
+        ["sf1r", "sf2r"],
+        ["sf2r", "sf3r"],
+        ["sf1rr", "sf2rr"],
+        ["sf2rr", "sf3rr"],
+        //crossing
+        {"beamDeform":7000,"beamStrength":"FLT_MAX"},
+        {"deformLimitExpansion":""},
+        ["sf1rr", "sf2r"],
+        ["sf2rr", "sf1r"],
+        ["sf2r", "sf3rr"],
+        ["sf3r", "sf2rr"],
+        //corners
+        {"beamDeform":3000},
+        ["sf3r", "sf1r"],
+        ["sf3rr", "sf1rr"],
+
+        //damper
+        {"beamSpring":0,"beamDamp":800},
+        ["sf3rr", "r5rr"],
+        ["sf3r", "r1rr"],
+
+        //attach
+        {"beamSpring":282000,"beamDamp":37.6},
+        {"beamDeform":6000,"beamStrength":"FLT_MAX"},
+        ["sf2r", "f3l"],
+        ["sf2r", "f2l"],
+        ["sf2r", "f3r"],
+        ["sf2r", "f2r"],
+
+        ["sf2rr", "f3r"],
+        ["sf2rr", "f3rr"],
+        ["sf2rr", "f2r"],
+        ["sf1r", "f2r"],
+        ["sf1rr", "f2r"],
+        ["sf1rr", "f2rr"],
+        ["sf1r", "f3r"],
+
+        //limiter
+        {"beamType":"|SUPPORT", "beamLongBound":5},
+        {"beamSpring":470000,"beamDamp":141},
+        {"beamPrecompression":0.9},
+        {"beamDeform":6000,"beamStrength":"FLT_MAX"},
+        {"optional":true},
+        ["sf3r", "tb2"],
+        ["sf3r", "p7r"],
+        ["sf3r", "p8r"],
+        ["sf3r", "rf2r"],
+        ["sf2r", "p4r"],
+        ["sf2r", "p3r"],
+        ["sf1r", "f1rr"],
+        ["sf1r", "f3rr"],
+        //to other seat
+        {"beamPrecompression":0.7},
+        //["sf1rr", "sf1ll"],
+        //["sf2rr", "sf2ll"],
+        //["sf3rr", "sf3ll"],
+        {"optional":false},
+        {"beamPrecompression":1},
+
+        {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        {"deformLimitExpansion":""},
+    ],
+    "triangles":[
+        ["id1:", "id2:", "id3:"],
+        {"groundModel":"metal"},
+        {"dragCoef":0},
+        //front seat
+        ["sf1r", "sf2r", "sf1rr"],
+        ["sf2rr", "sf1rr", "sf2r"],
+        ["sf2r", "sf3r", "sf2rr"],
+        ["sf3rr", "sf2rr", "sf3r"],
+    ],
+},
+"malibu22_spadie_seat_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Seats",
+        "value":350,
+    },
+    "slotType" : "malibu22_spadie_seat_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["load_seat_R","", "Rear Seat Load", {
+            "nodeMove":{"x": 0.00, "y":0.80, "z":0.61},
+            "variables":{
+                "$rotx":-10, "$roty":0, "$rotz":0,
+                "$group":"malibu22_spadie_seat_R",
+            },
+        }],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["malibu22_spadie_seat_R", ["malibu22_spadie_seat_R"]],
+    ],
+    "nodes":[
+          ["id", "posX", "posY", "posZ"],
+          {"group":"malibu22_spadie_seat_R"},
+          {"collision":true},
+          {"selfCollision":true},
+          {"nodeWeight":3.0},
+          ["sr1rr", -0.68915, 0.72997, 0.56608],
+          ["sr1", 0.00000, 0.72997, 0.56608],
+          ["sr1ll", 0.68915, 0.72997, 0.56608],
+
+          ["sr2rr", -0.64905, 1.12997, 0.49608],
+          ["sr2", 0.00000, 1.12997, 0.49608],
+          ["sr2ll", 0.64905, 1.12997, 0.49608],
+
+          ["sr3rr", -0.64000, 1.49922, 1.08608],
+          ["sr3", 0.00000, 1.49922, 1.08608],
+          ["sr3ll", 0.64000, 1.49922, 1.08608],
+          {"group":""},
+    ],
+    "beams":[
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          //main shape
+          {"beamSpring":2001000,"beamDamp":300},
+          {"beamDeform":20000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":1.2},
+          ["sr3rr", "sr3"],
+          ["sr3", "sr3ll"],
+          ["sr2rr", "sr2"],
+          ["sr2", "sr2ll"],
+          ["sr1ll", "sr1"],
+          ["sr1", "sr1rr"],
+          ["sr2rr", "sr3rr"],
+          ["sr3", "sr2"],
+          ["sr3ll", "sr2ll"],
+          ["sr2ll", "sr1ll"],
+          ["sr1", "sr2"],
+          ["sr1rr", "sr2rr"],
+          //crossing
+          {"beamDeform":17000,"beamStrength":"FLT_MAX"},
+          {"deformLimitExpansion":""},
+          ["sr3", "sr2ll"],
+          ["sr2", "sr3ll"],
+          ["sr3", "sr2rr"],
+          ["sr2", "sr3rr"],
+          ["sr1", "sr2rr"],
+          ["sr2", "sr1rr"],
+          ["sr1", "sr2ll"],
+          ["sr2", "sr1ll"],
+          //corner
+          {"beamDeform":3000,"beamStrength":"FLT_MAX"},
+          ["sr3rr", "sr1rr"],
+          ["sr3", "sr1"],
+          ["sr3ll", "sr1ll"],
+
+          //damper
+          {"beamSpring":0,"beamDamp":800},
+          ["sr3ll", "r4ll"],
+          ["sr3rr", "r4rr"],
+          ["sr3", "r4rr"],
+          ["sr3", "r4ll"],
+
+          //attach
+          {"beamSpring":282000,"beamDamp":37.6},
+          {"beamDeform":6000,"beamStrength":"FLT_MAX"},
+          ["sr2rr", "f4r"],
+          ["sr2rr", "f4rr"],
+          ["sr2rr", "f3r"],
+          ["sr1rr", "f3r"],
+          ["sr1rr", "f4r"],
+          ["sr1rr", "f3rr"],
+
+          ["sr2ll", "f4l"],
+          ["sr2ll", "f4ll"],
+          ["sr2ll", "f3l"],
+          ["sr1ll", "f3l"],
+          ["sr1ll", "f4l"],
+          ["sr1ll", "f3ll"],
+
+          ["sr2", "f4r"],
+          ["sr2", "f4l"],
+          ["sr2", "f3r"],
+          ["sr2", "f3l"],
+          ["sr1", "f3r"],
+          ["sr1", "f3l"],
+          ["sr1", "f4l"],
+          ["sr1", "f4r"],
+
+          //limiter
+          {"beamType":"|SUPPORT", "beamLongBound":5},
+          {"beamSpring":470000,"beamDamp":141},
+          {"beamPrecompression":0.9},
+          {"beamDeform":6000,"beamStrength":"FLT_MAX"},
+          ["sr3ll", "q2l"],
+          ["sr3ll", "tb1l"],
+          ["sr3", "tb1l"],
+          ["sr3", "tb1r"],
+          ["sr3rr", "tb1r"],
+          ["sr3rr", "q2r"],
+          {"optional":true},
+          ["sr1", "f3rr"],
+          ["sr1", "f3ll"],
+          ["sr2", "f4rr"],
+          ["sr2", "f4ll"],
+          ["sr3", "q1l"],
+          ["sr3", "q1r"],
+          {"optional":false},
+          {"beamPrecompression":1},
+
+          //cargo load box
+          {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"beamSpring":500001,"beamDamp":250},
+          {"beamDeform":510000,"beamStrength":"FLT_MAX"},
+          {"optional":true},
+          ["seat_box_R", "sr1rr"],
+          ["seat_box_R", "sr1ll"],
+          ["seat_box_R", "sr2rr"],
+          ["seat_box_R", "sr2ll"],
+          ["seat_box_R", "sr3rr"],
+          ["seat_box_R", "sr3ll"],
+          {"optional":false},
+
+          {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.2},
+    ],
+    "triangles":[
+        ["id1:", "id2:", "id3:"],
+        {"groundModel":"metal"},
+        {"dragCoef":0},
+        ["sr3rr", "sr2rr", "sr2"],
+        ["sr2", "sr3", "sr3rr"],
+        ["sr2rr", "sr1rr", "sr1"],
+        ["sr1", "sr2", "sr2rr"],
+        ["sr2", "sr1", "sr1ll"],
+        ["sr1ll", "sr2ll", "sr2"],
+        ["sr2ll", "sr3ll", "sr3"],
+        ["sr3", "sr2", "sr2ll"],
+    ],
+},
+"malibu22_spadie_seats_R_cargo_load_floor": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Cargo Box Slots",
+        "value":0,
+    },
+    "slotType" : "malibu22_spadie_seat_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["cargo_load_box_L_seats_RA","cargo_load_box_L_seats_RA", "Cargo Box A", {"nodeMove":{"x": 0.34, "y":0.75, "z":0.80}, "variables":{"$group":"malibu22_spadie_floor"}}],
+        ["cargo_load_box_L_seats_RB","cargo_load_box_L_seats_RB", "Cargo Box B", {"nodeMove":{"x":-0.34, "y":0.75, "z":0.80}, "variables":{"$group":"malibu22_spadie_floor"}}],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["cargo_support_box", ["malibu22_spadie_floor"],[],{"pos":{"x": 0.38,  "y":0.45, "z":0.28}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":2.9, "y":3, "z":3.4}}],
+         ["cargo_support_box", ["malibu22_spadie_floor"],[],{"pos":{"x":-0.38,  "y":0.45, "z":0.28}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":2.9, "y":3, "z":3.4}}],
+         ["cargo_support_box", ["malibu22_spadie_floor"],[],{"pos":{"x": 0.34,  "y":1.01, "z":0.385}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":3.5, "y":1, "z":2.2}}],
+         ["cargo_support_box", ["malibu22_spadie_floor"],[],{"pos":{"x":-0.34,  "y":1.01, "z":0.385}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":3.5, "y":1, "z":2.2}}],
+    ],
+    "beams":[
+        ["id1:", "id2:"],
+        {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+        //attach
+        {"beamSpring":1501000,"beamDamp":30},
+        {"beamDeform":20000,"beamStrength":"FLT_MAX"},
+
+        ["seat_box_RA_14", "f4ll"],
+        ["seat_box_RA_14", "f3ll"],
+        ["seat_box_RA_14", "f2ll"],
+
+        ["seat_box_RA_15", "f4ll"],
+        ["seat_box_RA_15", "f3ll"],
+        ["seat_box_RA_15", "f2ll"],
+        ["seat_box_RA_0", "f4ll"],
+        ["seat_box_RA_0", "f3ll"],
+        ["seat_box_RA_0", "f2ll"],
+
+        ["seat_box_RA_8",  "f4ll"],
+        ["seat_box_RA_8",  "f3ll"],
+        ["seat_box_RA_8",  "f2ll"],
+        ["seat_box_RA_8",  "f4l"],
+        ["seat_box_RA_8",  "f3l"],
+        ["seat_box_RA_8",  "f2l"],
+
+        ["seat_box_RA_2", "f4l"],
+        ["seat_box_RA_2", "f3l"],
+        ["seat_box_RA_2", "f2l"],
+        ["seat_box_RA_9", "f4l"],
+        ["seat_box_RA_9", "f3l"],
+        ["seat_box_RA_9", "f2l"],
+
+        ["seat_box_RA_12", "f4l"],
+        ["seat_box_RA_12", "f3l"],
+        ["seat_box_RA_12", "f2l"],
+
+        ["seat_box_RB_14", "f2r"],
+        ["seat_box_RB_14", "f3r"],
+        ["seat_box_RB_14", "f4r"],
+
+        ["seat_box_RB_15", "f2r"],
+        ["seat_box_RB_15", "f3r"],
+        ["seat_box_RB_15", "f4r"],
+        ["seat_box_RB_0", "f2r"],
+        ["seat_box_RB_0", "f3r"],
+        ["seat_box_RB_0", "f4r"],
+
+        ["seat_box_RB_8",  "f2r"],
+        ["seat_box_RB_8",  "f3r"],
+        ["seat_box_RB_8",  "f4r"],
+        ["seat_box_RB_8",  "f2rr"],
+        ["seat_box_RB_8",  "f3rr"],
+        ["seat_box_RB_8",  "f4rr"],
+
+        ["seat_box_RB_2", "f2rr"],
+        ["seat_box_RB_2", "f3rr"],
+        ["seat_box_RB_2", "f4rr"],
+        ["seat_box_RB_9", "f2rr"],
+        ["seat_box_RB_9", "f3rr"],
+        ["seat_box_RB_9", "f4rr"],
+
+        ["seat_box_RB_12", "f2rr"],
+        ["seat_box_RB_12", "f3rr"],
+        ["seat_box_RB_12", "f4rr"],
+        {"beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+        {"deformLimitExpansion":1.2},
+   ],
+},
+}

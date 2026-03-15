@@ -1,0 +1,107 @@
+{
+  "malibu22_spadie_cargo_load_box_4M_trunk": {
+    "information":{
+      "authors":"BeamNG",
+      "name":"4x Cargo Load Box M",
+      "value":0,
+    },
+    "slotType" : "malibu22_spadie_trunk_load",
+    "slots": [
+        ["type", "default", "description"],
+        ["cargo_load_box_M_trunk_A_90deg","cargo_load_box_M_trunk_A_90deg", "Trunk Box A", {"nodeMove":{"x": 0.175, "y":1.66, "z":0.46}, "coreSlot":true}],
+        ["cargo_load_box_M_trunk_B_90deg","cargo_load_box_M_trunk_B_90deg", "Trunk Box B", {"nodeMove":{"x":-0.175, "y":1.66, "z":0.46}, "coreSlot":true}],
+        ["cargo_load_box_M_trunk_C","cargo_load_box_M_trunk_C", "Trunk Box C", {"nodeMove":{"x": 0.345, "y":2.12, "z":0.46}, "coreSlot":true}],
+        ["cargo_load_box_M_trunk_D","cargo_load_box_M_trunk_D", "Trunk Box D", {"nodeMove":{"x":-0.345, "y":2.12, "z":0.46}, "coreSlot":true}],
+    ],
+    "flexbodies": [
+      ["mesh", "[group]:", "nonFlexMaterials"],
+      {"deformGroup":"trunk_box_A__crate_Strap","deformMaterialBase":"woodplanks","deformMaterialDamaged":"invis"},
+      ["woodplanks_straps_boxutility_small", ["trunk_box_A", "malibu22_spadie_body"],[],{"pos":{"x":0.175, "y":1.54, "z":0.46}, "rot":{"x":0, "y":0, "z":90}, "scale":{"x":0.57, "y":0.45, "z":0.27}}],
+      {"deformGroup":"trunk_box_B__crate_Strap","deformMaterialBase":"woodplanks","deformMaterialDamaged":"invis"},
+      ["woodplanks_straps_boxutility_small", ["trunk_box_B", "malibu22_spadie_body"],[],{"pos":{"x":-0.175, "y":1.54, "z":0.46}, "rot":{"x":0, "y":0, "z":90}, "scale":{"x":0.57, "y":0.45, "z":0.27}}],
+      {"deformGroup":"trunk_box_C__crate_Strap","deformMaterialBase":"woodplanks","deformMaterialDamaged":"invis"},
+      ["woodplanks_straps_boxutility_small", ["trunk_box_C", "malibu22_spadie_body"],[],{"pos":{"x":0.345, "y":2.02, "z":0.46}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":0.57, "y":0.45, "z":0.27}}],
+      {"deformGroup":"trunk_box_D__crate_Strap","deformMaterialBase":"woodplanks","deformMaterialDamaged":"invis"},
+      ["woodplanks_straps_boxutility_small", ["trunk_box_D", "malibu22_spadie_body"],[],{"pos":{"x":-0.345, "y":2.02, "z":0.46}, "rot":{"x":0, "y":0, "z":0}, "scale":{"x":0.57, "y":0.45, "z":0.27}}],
+      {"deformGroup":""},
+    ],
+    "beams": [
+      ["id1:", "id2:"],
+      {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1, "beamShortBound":1},
+
+      {"beamSpring":1501000,"beamDamp":30},
+      {"beamDeform":20000,"beamStrength":15000},
+      {"breakGroup":"trunk_box_A__crate_Strap"}
+      {"deformGroup":"trunk_box_A__crate_Strap", "deformationTriggerRatio":0.5}
+      ["trunk_box_A_5", "f9l"],
+      ["trunk_box_A_5", "r1"],
+      ["trunk_box_A_5", "tb2"],
+      ["trunk_box_A_1", "f9l"],
+      ["trunk_box_A_1", "r1"],
+      ["trunk_box_A_1", "tb2"],
+
+      ["trunk_box_A_6", "r6ll"],
+      ["trunk_box_A_6", "r5"],
+      ["trunk_box_A_6", "r6"],
+      ["trunk_box_A_0", "r5"],
+      ["trunk_box_A_0", "r6"],
+      ["trunk_box_A_0", "r6ll"],
+      //attach straps stack R
+      {"beamSpring":1501000,"beamDamp":30},
+      {"beamDeform":20000,"beamStrength":15000},
+      {"breakGroup":"trunk_box_B__crate_Strap"}
+      {"deformGroup":"trunk_box_B__crate_Strap", "deformationTriggerRatio":0.5}
+      ["trunk_box_B_5", "f9r"],
+      ["trunk_box_B_5", "r1"],
+      ["trunk_box_B_5", "tb2"],
+      ["trunk_box_B_1", "f9r"],
+      ["trunk_box_B_1", "r1"],
+      ["trunk_box_B_1", "tb2"],
+
+      ["trunk_box_B_6", "r5"],
+      ["trunk_box_B_6", "r6"],
+      ["trunk_box_B_6", "r6ll"],
+      ["trunk_box_B_0", "r5"],
+      ["trunk_box_B_0", "r6"],
+      ["trunk_box_B_0", "r6rr"],
+
+      //attach straps stack L
+      {"beamSpring":1501000,"beamDamp":30},
+      {"beamDeform":20000,"beamStrength":15000},
+      {"breakGroup":"trunk_box_C__crate_Strap"}
+      {"deformGroup":"trunk_box_C__crate_Strap", "deformationTriggerRatio":0.5}
+      ["trunk_box_C_5", "r2ll"],
+      ["trunk_box_C_5", "r3ll"],
+      ["trunk_box_C_5", "r6ll"],
+      ["trunk_box_C_1", "r2ll"],
+      ["trunk_box_C_1", "r3ll"],
+      ["trunk_box_C_1", "r6ll"],
+      ["trunk_box_C_6", "r2"],
+      ["trunk_box_C_6", "r3"],
+      ["trunk_box_C_6", "r6"],
+      ["trunk_box_C_0", "r2"],
+      ["trunk_box_C_0", "r3"],
+      ["trunk_box_C_0", "r6"],
+      //attach straps stack R
+      {"beamSpring":1501000,"beamDamp":30},
+      {"beamDeform":20000,"beamStrength":15000},
+      {"breakGroup":"trunk_box_D__crate_Strap"}
+      {"deformGroup":"trunk_box_D__crate_Strap", "deformationTriggerRatio":0.5}
+      ["trunk_box_D_5", "r2"],
+      ["trunk_box_D_5", "r3"],
+      ["trunk_box_D_5", "r6"],
+      ["trunk_box_D_1", "r2"],
+      ["trunk_box_D_1", "r3"],
+      ["trunk_box_D_1", "r6"],
+      ["trunk_box_D_6", "r3rr"],
+      ["trunk_box_D_6", "r6rr"],
+      ["trunk_box_D_6", "r3"],
+      ["trunk_box_D_0", "r2rr"],
+      ["trunk_box_D_0", "r6rr"],
+      ["trunk_box_D_0", "r3rr"],
+      {"breakGroup":""}
+      {"deformGroup":""}
+    ],
+},
+
+}

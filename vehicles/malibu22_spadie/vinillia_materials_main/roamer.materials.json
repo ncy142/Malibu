@@ -1,0 +1,254 @@
+{
+  "roamer" : {
+    "name" : "roamer",
+    "mapTo" : "roamer_old",
+    "class" : "Material",
+    "persistentId" : "78dd8369-be21-44ff-b1f5-31003ef92928",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/common/null.dds",
+        "normalMap" : "vehicles/roamer/roamer_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/common/null.dds",
+        "specularPower" : 128,
+        "useAnisotropic" : true
+      },
+      {
+        "colorMap" : "vehicles/roamer/roamer_d.dds",
+        "normalMap" : "vehicles/roamer/roamer_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/roamer/roamer_s.dds",
+        "specularPower" : 32,
+        "useAnisotropic" : true
+      },
+      {
+        "colorMap" : "vehicles/roamer/roamer_c.dds",
+        "colorPaletteMap" : "vehicles/roamer/roamer_skin_twotone_uv0.dds",
+        "instanceDiffuse" : true,
+        "normalMap" : "vehicles/roamer/roamer_n.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/roamer/roamer_s.dds",
+        "specularPower" : 10,
+        "useAnisotropic" : true
+      },
+      {}
+    ],
+    "alphaRef" : 0,
+    "dynamicCubemap" : true,
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle",
+    "translucent" : true,
+    "translucentBlendOp" : "None"
+  },
+  "roamer_lights": {
+    "name": "roamer_lights",
+    "mapTo": "roamer_lights",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/roamer/roamer_lights_ao.data.png",
+        "baseColorMap": "/vehicles/roamer/roamer_lights_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/roamer/roamer_lights_m.data.png",
+        "normalMap": "/vehicles/roamer/roamer_lights_nm.normal.png",
+        "roughnessFactor": 1,
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/roamer/roamer_lights_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "roamer_lights_dmg": {
+    "name": "roamer_lights_dmg",
+    "mapTo": "roamer_lights_dmg",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/roamer/roamer_lights_ao.data.png",
+        "baseColorMap": "/vehicles/roamer/roamer_lights_dmg_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/roamer/roamer_lights_dmg_m.data.png",
+        "normalMap": "/vehicles/roamer/roamer_lights_dmg_nm.normal.png",
+        "roughnessFactor": 1,
+        "pixelSpecular": true,
+        "roughnessMap": "/vehicles/roamer/roamer_lights_dmg_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "roamer_lights_on": {
+    "name": "roamer_lights_on",
+    "mapTo": "roamer_lights_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/roamer/roamer_lights_ao.data.png",
+        "baseColorMap": "/vehicles/roamer/roamer_lights_b.color.png",
+        "emissiveFactor": [
+          1.5,
+          1.5,
+          1.5
+        ],
+        "emissiveMap": "/vehicles/roamer/roamer_lights_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/roamer/roamer_lights_m.data.png",
+        "normalMap": "/vehicles/roamer/roamer_lights_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/roamer/roamer_lights_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "roamer_lights_on_intense": {
+    "name": "roamer_lights_on_intense",
+    "mapTo": "roamer_lights_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/roamer/roamer_lights_ao.data.png",
+        "baseColorMap": "/vehicles/roamer/roamer_lights_b.color.png",
+        "emissiveFactor": [
+          2,
+          2,
+          2
+        ],
+        "emissiveMap": "/vehicles/roamer/roamer_lights_intense_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/roamer/roamer_lights_m.data.png",
+        "normalMap": "/vehicles/roamer/roamer_lights_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/roamer/roamer_lights_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+},
+  "roamer_main" : {
+    "name" : "roamer_main",
+    "mapTo" : "roamer",
+    "class" : "Material",
+    "persistentId" : "78dd8369-be21-44ff-b1f5-31003ef92928",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/roamer/roamer_main_ao.data.png",
+        "baseColorMap": "/vehicles/roamer/roamer_main_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/roamer/roamer_main_m.data.png",
+        "normalMap": "vehicles/roamer/roamer_n.dds",
+        "roughnessMap": "/vehicles/roamer/roamer_main_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/roamer/roamer_main_ao.data.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/roamer/roamer_main_cc.data.png",
+        "clearCoatRoughnessFactor": 1,
+        "colorPaletteMap": "/vehicles/roamer/roamer_skin_twotone_uv0.dds",
+        "colorPaletteMapUseUV": 0,
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/roamer/roamer_n.dds",
+        "opacityMap": "/vehicles/roamer/roamer_main_c.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "roamer_chmsl" : {
+    "name" : "roamer_chmsl",
+    "class" : "Material",
+    "persistentId" : "217243df-ea44-4686-89db-8c606d8cdb1f",
+    "Stages" : [ {}, {}, {}, {} ],
+    "mapTo" : "roamer_chmsl"
+  },
+  "roamer_signalglass_R" : {
+    "name" : "roamer_signalglass_R",
+    "class" : "Material",
+    "Stages" : [ {}, {}, {}, {} ],
+    "mapTo" : "roamer_signalglass_R"
+  },
+  "roamer_signalglass_L" : {
+    "name" : "roamer_signalglass_L",
+    "class" : "Material",
+    "Stages" : [ {}, {}, {}, {} ],
+    "mapTo" : "roamer_signalglass_L"
+  },
+  "roamer_taillightglass_R" : {
+    "name" : "roamer_taillightglass_R",
+    "class" : "Material",
+    "Stages" : [ {}, {}, {}, {} ],
+    "mapTo" : "roamer_taillightglass_R"
+  },
+  "roamer_taillightglass_L" : {
+    "name" : "roamer_taillightglass_L",
+    "class" : "Material",
+    "Stages" : [ {}, {}, {}, {} ],
+    "mapTo" : "roamer_taillightglass_L"
+  },
+  "roamer_roofrack" : {
+    "name" : "roamer_roofrack",
+    "class" : "Material",
+    "persistentId" : "105c9e57-f90d-4365-82f5-a5e003d471ad",
+    "Stages" : [
+      {
+        "colorMap" : "vehicles/roamer/roamer_roofrack_D.dds",
+        "normalMap" : "vehicles/roamer/roamer_roofrack_N.dds",
+        "pixelSpecular" : true,
+        "specularMap" : "vehicles/roamer/roamer_roofrack_S.dds",
+        "specularPower" : 128,
+        "useAnisotropic" : true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap" : true,
+    "mapTo" : "roamer_roofrack",
+    "materialTag0" : "beamng",
+    "materialTag1" : "vehicle"
+  }
+}

@@ -1,0 +1,531 @@
+{
+"malibu22_spadie_windshield": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Windshield",
+        "value":340,
+    },
+    "slotType" : "malibu22_spadie_windshield",
+    "slots": [
+        ["type", "default", "description"],
+        ["malibu22_spadie_sunstrip","", "Sun Strip"],
+    ],
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //glass
+         {"deformGroup":"windshield_break", "deformMaterialBase":"malibu22_spadie_glass", "deformMaterialDamaged":"malibu22_spadie_glass_windshield_dmg"},
+         ["malibu22_spadie_windshield", ["malibu22_spadie_windshield"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>impact_glass_windscreen_01", "deformVolume":0.7}],
+
+         {"deformGroup":"windshield_break", "deformMaterialBase":"malibu22_spadie_glass_int", "deformMaterialDamaged":"malibu22_spadie_glass_int"},
+         ["malibu22_spadie_windshield_int", ["malibu22_spadie_windshield"]],
+
+         {"deformGroup":"windshield_break", "deformMaterialBase":"glass_invisible", "deformMaterialDamaged":"glass_mirror"},
+         ["malibu22_spadie_windshield_dmg", ["malibu22_spadie_windshield"]],
+         {"deformGroup":""},
+         ["malibu22_spadie_wipers", ["malibu22_spadie_body", "malibu22_spadie_engine_bay"]],
+    ],
+    "sounds": {
+        "$+cabinFilterCoef": 0.12
+    }
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_GLASS"},
+         {"nodeWeight":1.5},
+         {"group":["gps","malibu22_spadie_windshield"]},
+         ["wi1", 0, -0.62, 1.17],
+         {"group":""},
+         {"nodeMaterial":"|NM_METAL"},
+
+         //windshield add weight
+         {"nodeWeight":3.1},
+         //a pillar
+         ["p1r", -0.64803, -0.61044, 1.13000, {"group":["malibu22_spadie_body","malibu22_spadie_windshield"]}],
+         ["p1l", 0.64803, -0.61044, 1.13000, {"group":["malibu22_spadie_body","malibu22_spadie_windshield"]}],
+         //roof
+         {"nodeWeight":2.8},
+         ["rf1r", -0.59000, -0.11800, 1.32766, {"group":["malibu22_spadie_body","malibu22_spadie_windshield"]}],
+         ["rf1", 0.00000, -0.15397, 1.36047, {"nodeWeight":1.0,"group":["malibu22_spadie_body","malibu22_spadie_windshield"]}],
+         ["rf1l", 0.59000, -0.11800, 1.32766, {"group":["malibu22_spadie_body","malibu22_spadie_windshield"]}],
+         //firewall
+         {"nodeWeight":5.0},
+         ["f6rr", -0.76000, -0.83495, 0.93000, {"group":["malibu22_spadie_engine_bay","malibu22_spadie_windshield","gps","malibu22_spadie_dash","malibu22_spadie_body"]}],
+         ["f6r", -0.32000, -1.00542, 0.95000, {"nodeWeight":3.5, "group":["malibu22_spadie_engine_bay","malibu22_spadie_windshield","gps","malibu22_spadie_dash","malibu22_spadie_body","malibu22_spadie_strutbar"]}],
+         ["f6l", 0.32000, -1.00542, 0.95000, {"nodeWeight":3.5, "group":["malibu22_spadie_engine_bay","malibu22_spadie_windshield","gps","malibu22_spadie_dash","malibu22_spadie_body","malibu22_spadie_strutbar"]}],
+         ["f6ll", 0.76000, -0.83495, 0.93000, {"group":["malibu22_spadie_engine_bay","malibu22_spadie_windshield","gps","malibu22_spadie_dash","malibu22_spadie_body"]}],
+    ],
+
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+          //weak windshield beams
+          {"beamSpring":701000,"beamDamp":5},
+          {"beamDeform":18500,"beamStrength":"FLT_MAX"},
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"deformGroup":"windshield_break","deformationTriggerRatio":0.03},
+          {"deformLimitExpansion":""},
+          ["rf1","wi1"],
+          ["rf1r","wi1"],
+          ["rf1l","wi1"],
+          ["wi1","f6r"],
+          ["wi1","f6l"],
+          ["wi1","p1r"],
+          ["wi1","p1l"],
+          ["wi1","f6rr"],
+          ["wi1","f6ll"],
+
+          ["wi1","p2rr"],
+          ["wi1","p2ll"],
+          {"beamDeform":18500,"beamStrength":1500},
+          {"breakGroup":"windshield"},
+          ["rf1","f6r"],
+          ["rf1","f6l"],
+          ["p1r","p1l"],
+          ["rf1r","f6r"],
+          ["rf1l","f6l"],
+
+          {"breakGroup":""},
+          {"deformGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.1},
+    ],
+    "triangles": [
+            ["id1:","id2:","id3:"],
+            //windshield
+            {"groundModel":"glass"},
+            {"dragCoef":6.15},
+            {"group":"malibu22_spadie_roof"},
+            ["rf1","p1r","f6r"],
+            ["rf1","f6l","p1l"],
+            ["rf1","f6r","f6l"],
+            {"dragCoef":0},
+            {"group":""},
+    ],
+},
+"malibu22_spadie_backlight": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Backlight",
+        "value":240,
+    },
+    "slotType" : "malibu22_spadie_backlight",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //glass
+         {"deformGroup":"backlight_break", "deformMaterialBase":"malibu22_spadie_glass", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_backlight", ["malibu22_spadie_body"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound9", "deformVolume":0.8}],
+         {"deformGroup":"backlight_break", "deformMaterialBase":"malibu22_spadie_glass_int", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_backlight_int", ["malibu22_spadie_body"]],
+         {"deformGroup":""},
+    ],
+    "sounds": {
+        "$+cabinFilterCoef": 0.12
+    },
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+
+         //rear and quarter window add weight
+         //c pillar
+         {"nodeWeight":3.5},
+         {"group":"malibu22_spadie_body"},
+         ["p10r", -0.63000, 1.67455, 1.15000],
+         ["p10l", 0.63000, 1.67455, 1.15000],
+         //roof
+         {"nodeWeight":2.7},
+         ["rf4r", -0.57000, 1.25973, 1.29000],
+         ["rf4", 0.00000, 1.29155, 1.34000, {"nodeWeight":1.0}],
+         ["rf4l", 0.57000, 1.25973, 1.29000],
+         //base of rear window/trunk
+         {"nodeWeight":3.8},
+         {"group":["malibu22_spadie_body","malibu22_spadie_chmsl"]}
+         ["tb1r", -0.33000, 2.05330, 1.01191],
+         ["tb1l", 0.33000, 2.05330, 1.01191],
+         {"group":""},
+    ],
+
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+          //brittle glass beams
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"beamSpring":701000,"beamDamp":5},
+          {"beamDeform":2000,"beamStrength":1500},
+          {"deformGroup":"backlight_break", "deformationTriggerRatio":0.02},
+          {"breakGroup":"backlight"},
+          {"deformLimitExpansion":""},
+          ["tb1l", "rf4"],
+          ["tb1r", "rf4"],
+          ["p10r", "rf4l"],
+          ["p10l", "rf4r"],
+          ["p10r", "tb1l"],
+          ["p10l", "tb1r"],
+          ["tb1r", "rf4l"],
+          ["tb1l", "rf4r"],
+          ["rf4r", "q2l"],
+          ["rf4l", "tb2"],
+
+          {"breakGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"deformGroup":""},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.1},
+    ],
+    "triangles": [
+            ["id1:","id2:","id3:"],
+            //backlight
+            {"groundModel":"glass"},
+            {"dragCoef":18.45},
+            {"group":"malibu22_spadie_roof"},
+            {"breakGroup":"backlight"},
+            ["rf4", "tb1r", "p10r"],
+            ["rf4", "tb1l", "tb1r"],
+            ["rf4", "p10l", "tb1l"],
+            {"breakGroup":""},
+            {"dragCoef":0},
+            {"group":""},
+    ],
+},
+"malibu22_spadie_quarterglass_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Right Quarter Glass",
+        "value":50,
+    },
+    "slotType" : "malibu22_spadie_quarterglass_R",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //glass
+         {"deformGroup":"sideglass_R_break", "deformMaterialBase":"malibu22_spadie_glass", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_sideglass_R", ["malibu22_spadie_body"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound6", "deformVolume":0.5}],
+         {"deformGroup":"sideglass_R_break", "deformMaterialBase":"malibu22_spadie_glass_int", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_sideglass_R_int", ["malibu22_spadie_body"]],
+         {"deformGroup":""},
+    ],
+    "sounds": {
+        "$+cabinFilterCoef": 0.02
+    }
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+
+         //rear and quarter window add weight
+         //c pillar
+         {"nodeWeight":3.5},
+         {"group":"malibu22_spadie_body"},
+         ["p9r", -0.70000, 1.30292, 1.11000],
+         {"group":""},
+    ],
+
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+          //brittle glass beams
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"beamSpring":701000,"beamDamp":5},
+          {"beamDeform":2000,"beamStrength":1500},
+          {"deformGroup":"sideglass_R_break", "deformationTriggerRatio":0.03},
+          {"breakGroup":"sideglass_R"},
+          {"deformLimitExpansion":""},
+          ["rf4r", "q1r", {"optional":true}],
+          ["rf4r", "q2r", {"optional":true}],
+          {"breakGroup":""},
+          {"deformGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.1},
+    ],
+},
+"malibu22_spadie_quarterglass_L": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Left Quarter Glass",
+        "value":50,
+    },
+    "slotType" : "malibu22_spadie_quarterglass_L",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         //glass
+         {"deformGroup":"sideglass_L_break", "deformMaterialBase":"malibu22_spadie_glass", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_sideglass_L", ["malibu22_spadie_body"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound6", "deformVolume":0.5}],
+         {"deformGroup":"sideglass_L_break", "deformMaterialBase":"malibu22_spadie_glass_int", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_sideglass_L_int", ["malibu22_spadie_body"]],
+         {"deformGroup":""},
+    ],
+    "sounds": {
+        "$+cabinFilterCoef": 0.02
+    }
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+
+         //rear and quarter window add weight
+         //c pillar
+         {"nodeWeight":3.5},
+         {"group":"malibu22_spadie_body"},
+         ["p9l", 0.70000, 1.30292, 1.11000],
+         {"group":""},
+    ],
+
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+
+          //brittle glass beams
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"beamSpring":701000,"beamDamp":5},
+          {"beamDeform":2000,"beamStrength":1500},
+          {"deformGroup":"sideglass_L_break", "deformationTriggerRatio":0.03},
+          {"breakGroup":"sideglass_L"},
+          {"deformLimitExpansion":""},
+          ["rf4l", "q1l", {"optional":true}],
+          ["rf4l", "q2l", {"optional":true}],
+          {"breakGroup":""},
+          {"deformGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"beamPrecompression":1, "beamType":"|NORMAL", "beamLongBound":1.0, "beamShortBound":1.0},
+          {"deformLimitExpansion":1.1},
+    ],
+},
+"malibu22_spadie_doorglass_FR": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Right Door Glass",
+        "value":90,
+    },
+    "slotType" : "malibu22_spadie_doorglass_FR",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         {"deformGroup":"doorglass_FR_break", "deformMaterialBase":"malibu22_spadie_glass", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_doorglass_FR", ["malibu22_spadie_door_FR"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound5", "deformVolume":0.7}],
+         {"deformGroup":"doorglass_FR_break", "deformMaterialBase":"malibu22_spadie_glass_int", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_doorglass_FR_int", ["malibu22_spadie_door_FR"]],
+         {"deformGroup":""},
+    ],
+    "sounds": {
+        "$+cabinFilterCoef": 0.04
+    }
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //add weight
+         {"group":"malibu22_spadie_door_FR"},
+         {"nodeWeight":1.5},
+         ["d10r", -0.72009, -0.47399, 1.12401, {"group":""}],
+         ["d11r", -0.63008, -0.08129, 1.27283],
+         ["d12r", -0.63189, 0.39938, 1.33042],
+         ["d13r", -0.73010, 0.35152, 1.13384],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamType":"|NORMAL", "beamPrecompression":1, "beamLongBound":1.0, "beamShortBound":1.0},
+          //brittle glass beams
+          {"beamSpring":701000,"beamDamp":5},
+          {"beamDeform":2000,"beamStrength":1500},
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"deformGroup":"doorglass_FR_break", "deformationTriggerRatio":0.02},
+          {"breakGroup":"doorglass_FR"},
+          {"deformLimitExpansion":""},
+          ["d11r","d8r"],
+          ["d12r","d8r"],
+          ["d10r","d13r"],
+          ["d10r","d9r"],
+          ["d13r","d7r"],
+          ["d9r","d11r"],
+          ["d7r","d11r"],
+          ["d9r","d12r"],
+          {"breakGroup":""},
+          {"deformGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"deformLimitExpansion":1.1},
+    ],
+},
+"malibu22_spadie_doorglass_FL": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Left Door Glass",
+        "value":90,
+    },
+    "slotType" : "malibu22_spadie_doorglass_FL",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         {"deformGroup":"doorglass_FL_break", "deformMaterialBase":"malibu22_spadie_glass", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_doorglass_FL", ["malibu22_spadie_door_FL"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound6", "deformVolume":0.7}],
+         {"deformGroup":"doorglass_FL_break", "deformMaterialBase":"malibu22_spadie_glass_int", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_doorglass_FL_int", ["malibu22_spadie_door_FL"]],
+         {"deformGroup":""},
+    ],
+    "sounds": {
+        "$+cabinFilterCoef": 0.04
+    }
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //add weight
+         {"group":"malibu22_spadie_door_FL"},
+         {"nodeWeight":1.5},
+         ["d10l", 0.72009, -0.47399, 1.12401, {"group":""}],
+         ["d11l", 0.63008, -0.08129, 1.27283],
+         ["d12l", 0.63189, 0.39938, 1.33042],
+         ["d13l", 0.73010, 0.35152, 1.13384],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamType":"|NORMAL", "beamPrecompression":1, "beamLongBound":1.0, "beamShortBound":1.0},
+          //brittle glass beams
+          {"beamSpring":701000,"beamDamp":5},
+          {"beamDeform":2000,"beamStrength":1500},
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"deformGroup":"doorglass_FL_break", "deformationTriggerRatio":0.02},
+          {"breakGroup":"doorglass_FL"},
+          {"deformLimitExpansion":""},
+          ["d11l","d8l"],
+          ["d12l","d8l"],
+          ["d10l","d13l"],
+          ["d10l","d9l"],
+          ["d13l","d7l"],
+          ["d9l","d11l"],
+          ["d7l","d11l"],
+          ["d9l","d12l"],
+          {"breakGroup":""},
+          {"deformGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"deformLimitExpansion":1.1},
+    ],
+},
+"malibu22_spadie_doorglass_RR": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Right Door Glass",
+        "value":80,
+    },
+    "slotType" : "malibu22_spadie_doorglass_RR",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         {"deformGroup":"doorglass_RR_break", "deformMaterialBase":"malibu22_spadie_glass", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_doorglass_RR", ["malibu22_spadie_door_RR"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound7", "deformVolume":0.7}],
+         {"deformGroup":"doorglass_RR_break", "deformMaterialBase":"malibu22_spadie_glass_int", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_doorglass_RR_int", ["malibu22_spadie_door_RR"]],
+         {"deformGroup":""},
+    ],
+    "sounds": {
+        "$+cabinFilterCoef": 0.04
+    }
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //add weight
+         {"group":"malibu22_spadie_door_RR"},
+         {"nodeWeight":1.3},
+         ["d24r", -0.73074, 0.41346, 1.14000],
+         ["d25r", -0.64559, 0.44161, 1.30571],
+         ["d26r", -0.62521, 0.72718, 1.29571],
+         ["d27r", -0.65335, 1.20192, 1.23465],
+         ["d28r", -0.69805, 1.26975, 1.13000],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamType":"|NORMAL", "beamPrecompression":1, "beamLongBound":1.0, "beamShortBound":1.0},
+          //brittle glass beams
+          {"beamSpring":701000,"beamDamp":5},
+          {"beamDeform":2000,"beamStrength":1500},
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"breakGroup":"doorglass_RR"},
+          {"deformGroup":"doorglass_RR_break", "deformationTriggerRatio":0.02},
+          {"deformLimitExpansion":""},
+          ["d22r", "d26r"],
+          ["d24r", "d28r"],
+          ["d27r", "d21r"],
+          ["d25r", "d23r"],
+          ["d28r", "d21r"],
+          ["d24r", "d23r"],
+          {"breakGroup":""},
+          {"deformGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"deformLimitExpansion":1.1},
+    ],
+},
+"malibu22_spadie_doorglass_RL": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Left Door Glass",
+        "value":80,
+    },
+    "slotType" : "malibu22_spadie_doorglass_RL",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         {"deformGroup":"doorglass_RL_break", "deformMaterialBase":"malibu22_spadie_glass", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_doorglass_RL", ["malibu22_spadie_door_RL"],[]{"deformSound":"event:>Destruction>Vehicle>Glass>glassbreaksound8", "deformVolume":0.7}],
+         {"deformGroup":"doorglass_RL_break", "deformMaterialBase":"malibu22_spadie_glass_int", "deformMaterialDamaged":"malibu22_spadie_glass_dmg"},
+         ["malibu22_spadie_doorglass_RL_int", ["malibu22_spadie_door_RL"]],
+         {"deformGroup":""},
+    ],
+    "sounds": {
+        "$+cabinFilterCoef": 0.04
+    }
+    "nodes": [
+         ["id", "posX", "posY", "posZ"],
+         {"selfCollision":true},
+         {"collision":true},
+         {"frictionCoef":0.5},
+         {"nodeMaterial":"|NM_METAL"},
+         //add weight
+         {"group":"malibu22_spadie_door_RL"},
+         {"nodeWeight":1.3},
+         ["d24l", 0.73074, 0.41346, 1.14000],
+         ["d25l", 0.64559, 0.44161, 1.30571],
+         ["d26l", 0.62521, 0.72718, 1.29571],
+         ["d27l", 0.65335, 1.20192, 1.23465],
+         ["d28l", 0.69805, 1.26975, 1.13000],
+         {"group":""},
+    ],
+    "beams": [
+          ["id1:", "id2:"],
+          {"beamType":"|NORMAL", "beamPrecompression":1, "beamLongBound":1.0, "beamShortBound":1.0},
+          //brittle glass beams
+          {"beamSpring":701000,"beamDamp":5},
+          {"beamDeform":2000,"beamStrength":1500},
+          {"disableMeshBreaking":true,"disableTriangleBreaking":true},
+          {"breakGroup":"doorglass_RL"},
+          {"deformGroup":"doorglass_RL_break", "deformationTriggerRatio":0.02},
+          {"deformLimitExpansion":""},
+          ["d22l", "d26l"],
+          ["d24l", "d28l"],
+          ["d27l", "d21l"],
+          ["d25l", "d23l"],
+          ["d28l", "d21l"],
+          ["d24l", "d23l"],
+          {"breakGroup":""},
+          {"deformGroup":""},
+          {"disableMeshBreaking":false,"disableTriangleBreaking":false},
+          {"deformLimitExpansion":1.1},
+    ],
+},
+}

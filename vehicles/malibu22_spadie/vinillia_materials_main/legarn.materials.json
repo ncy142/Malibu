@@ -1,0 +1,786 @@
+{
+  "legran": {
+    "name": "legran",
+    "mapTo": "legran_old",
+    "class": "Material",
+    "persistentId": "6227995f-38d9-4f5a-8e06-d9fb30334526",
+    "Stages": [
+      {
+        "colorMap": "vehicles/common/null.dds",
+        "normalMap": "vehicles/legran/legran_n.normal.png",
+        "pixelSpecular": true,
+        "specularMap": "vehicles/legran/legran_s.color.png",
+        "specularPower": 128,
+        "useAnisotropic": true
+      },
+      {
+        "colorMap": "vehicles/legran/legran_d.color.png",
+        "normalMap": "vehicles/legran/legran_n.normal.png",
+        "pixelSpecular": true,
+        "specularMap": "vehicles/legran/legran_s.color.png",
+        "specularPower": 32,
+        "useAnisotropic": true
+      },
+      {
+        "colorMap": "vehicles/legran/legran_c.color.png",
+        "instanceDiffuse": true,
+        "normalMap": "vehicles/legran/legran_n.normal.png",
+        "pixelSpecular": true,
+        "specularMap": "vehicles/legran/legran_s.color.png",
+        "specularPower": 10,
+        "useAnisotropic": true
+      },
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "legran_brakelight": {
+    "name": "legran_brakelight",
+    "mapTo": "legran_brakelight",
+    "class": "Material",
+    "persistentId": "452944bb-36b8-4aba-a151-acd737d5a537",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_chmsl": {
+    "name": "legran_chmsl",
+    "mapTo": "legran_chmsl",
+    "class": "Material",
+    "persistentId": "689ea0fa-25df-45dc-abcc-b3e592449276",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_fog": {
+    "name": "legran_fog",
+    "mapTo": "legran_fog",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_gauges": {
+    "name": "legran_gauges",
+    "mapTo": "legran_gauges",
+    "class": "Material",
+    "persistentId": "78072d7b-cfd4-4555-baf4-dbf9a16b3809",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/legran/legran_instruments_ao.data.png",
+        "baseColorMap": "vehicles/legran/legran_instruments_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/legran/legran_instruments_m.data.png",
+        "normalMap": "vehicles/legran/legran_instruments_nm.normal.png",
+        "roughnessMap": "vehicles/legran/legran_instruments_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "legran_gauges_odo": {
+    "name": "legran_gauges_odo",
+    "mapTo": "legran_gauges_odo",
+    "class": "Material",
+    "persistentId": "54318c0c-3179-4eed-a6e4-6b9f218caec5",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/common/odometer_analog_ao.data.png",
+        "ambientOcclusionMapUseUV": 1,
+        "baseColorMap": "@legran_gauges_odo",
+        "diffuseMapUseUV": 1,
+        "metallicMapUseUV": 1,
+        "normalMap": "/vehicles/common/odometer_analog_nm.normal.png",
+        "normalMapUseUV": 1,
+        "roughnessMap": "/vehicles/common/odometer_analog_r.data.png",
+        "roughnessMapUseUV": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "legran_gauges_on": {
+    "name": "legran_gauges_on",
+    "mapTo": "legran_gauges_on",
+    "class": "Material",
+    "persistentId": "ef33e763-331d-4dab-a1c3-ab586631fdd4",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/legran/legran_instruments_ao.data.png",
+        "baseColorMap": "vehicles/legran/legran_instruments_b.color.png",
+        "emissiveFactor": [
+          2,
+          2,
+          2
+        ],
+        "emissiveMap": "vehicles/legran/legran_instruments_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/legran/legran_instruments_m.data.png",
+        "normalMap": "vehicles/legran/legran_instruments_nm.normal.png",
+        "roughnessMap": "vehicles/legran/legran_instruments_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "glow": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "legran_warninglights_on": {
+    "name": "legran_warninglights_on",
+    "mapTo": "legran_warninglights_on",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/legran/legran_warninglights_ao.data.png",
+        "baseColorMap": "vehicles/legran/legran_warninglights_b.color.png",
+        "emissiveFactor": [
+          2,
+          2,
+          2
+        ],
+        "emissiveMap": "vehicles/legran/legran_warninglights_g.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/legran/legran_warninglights_m.data.png",
+        "normalMap": "vehicles/legran/legran_warninglights_nm.normal.png",
+        "roughnessMap": "vehicles/legran/legran_warninglights_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "glow": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "legran_warninglights": {
+    "name": "legran_warninglights",
+    "mapTo": "legran_warninglights",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/legran/legran_warninglights_ao.data.png",
+        "baseColorMap": "vehicles/legran/legran_warninglights_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/legran/legran_warninglights_m.data.png",
+        "normalMap": "vehicles/legran/legran_warninglights_nm.normal.png",
+        "roughnessMap": "vehicles/legran/legran_warninglights_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "legran_glass": {
+    "name": "legran_glass",
+    "mapTo": "legran_glass",
+    "class": "Material",
+    "persistentId": "97f4f89f-3776-4da2-87dc-317e2eb322fa",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/legran/legran_glass_b.color.png",
+        "normalMap": "/vehicles/legran/legran_glass_n.normal.png",
+        "opacityMap": "/vehicles/legran/legran_glass_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "legran_glass_dmg": {
+    "name": "legran_glass_dmg",
+    "mapTo": "legran_glass_dmg",
+    "class": "Material",
+    "persistentId": "6f70a786-26f0-43a9-820d-47e34642233a",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/legran/legran_glass_dmg_b.color.png",
+        "normalMap": "/vehicles/legran/legran_glass_dmg_n.normal.png",
+        "opacityMap": "/vehicles/legran/legran_glass_dmg_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 20,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "legran_glass_int": {
+    "name": "legran_glass_int",
+    "mapTo": "legran_glass_int",
+    "class": "material",
+    "persistentId": "77111c48-a8b6-4ea8-841b-90d05945fb9b",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.3,
+          0.32,
+          0.3,
+          0.2
+        ],
+        "specular": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "specularPower": 38.40000152587891
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "LerpAlpha"
+  },
+  "legran_highbeam": {
+    "name": "legran_highbeam",
+    "mapTo": "legran_highbeam",
+    "class": "Material",
+    "persistentId": "5697c800-6617-4771-83e1-715d468f1d77",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_interior": {
+    "name": "legran_interior",
+    "mapTo": "legran_interior",
+    "class": "Material",
+    "persistentId": "aa84e040-8aa9-4720-ac69-9d4dba75d24d",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "vehicles/legran/legran_interior_ao.data.png",
+        "baseColorMap": "vehicles/legran/legran_interior_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/legran/legran_interior_m.data.png",
+        "normalMap": "vehicles/legran/legran_interior_nm.normal.png",
+        "roughnessMap": "vehicles/legran/legran_interior_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "legran_lettering": {
+    "name": "legran_lettering",
+    "mapTo": "legran_lettering",
+    "class": "Material",
+    "persistentId": "2e3acc10-c7c0-4695-bfa2-83d217baa025",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/legran/legran_lettering_d.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/legran/legran_lettering_op.data.png",
+        "normalMap": "/vehicles/legran/legran_lettering_n.normal.png",
+        "opacityMap": "/vehicles/legran/legran_lettering_op.data.png",
+        "roughnessMap": "/vehicles/legran/legran_lettering_r.color.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 7,
+    "alphaTest": true,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "legran_lights": {
+    "name": "legran_lights",
+    "mapTo": "legran_lights",
+    "class": "Material",
+    "persistentId": "66c299a6-2bee-4b0b-8147-f88d61b0cffb",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/legran/legran_lights_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/legran/legran_lights_m.data.png",
+        "normalMap": "vehicles/legran/legran_lights_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/legran/legran_lights_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "legran_lights_dmg": {
+    "name": "legran_lights_dmg",
+    "mapTo": "legran_lights_dmg",
+    "class": "Material",
+    "persistentId": "be16b91f-ed14-42e6-9f14-537711f66711",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/legran/legran_lights_dmg_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/legran/legran_lights_dmg_m.data.png",
+        "normalMap": "vehicles/legran/legran_lights_dmg_n.normal.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 1,
+        "roughnessFactor": 1,
+        "roughnessMap": "/vehicles/legran/legran_lights_dmg_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "translucent": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "legran_lights_on": {
+    "name": "legran_lights_on",
+    "mapTo": "legran_lights_on",
+    "class": "material",
+    "persistentId": "2beb1cbd-6b7f-49e1-b071-f754587a0040",
+    "Stages": [
+      {
+        "colorMap": "vehicles/legran/legran_lights_d.color.png",
+        "normalMap": "vehicles/legran/legran_lights_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/legran/legran_lights_r.color.png",
+        "specularMap": "vehicles/legran/legran_lights_s.color.png",
+        "specularPower": 32
+      },
+      {
+        "colorMap": "vehicles/legran/legran_lights_g.color.png",
+        "diffuseColor": [
+          1,
+          1,
+          1,
+          0.4
+        ],
+        "emissive": true,
+        "glow": true,
+        "reflectivityMap": "vehicles/legran/legran_lights_r.color.png",
+        "specularMap": "vehicles/legran/legran_lights_s.color.png"
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": false,
+    "translucentBlendOp": "None"
+  },
+  "legran_lights_on_intense": {
+    "name": "legran_lights_on_intense",
+    "mapTo": "legran_lights_on_intense",
+    "class": "material",
+    "persistentId": "2beb1cbd-6b7f-49e1-b071-f754587a0040",
+    "Stages": [
+      {
+        "colorMap": "vehicles/legran/legran_lights_d.color.png",
+        "normalMap": "vehicles/legran/legran_lights_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/legran/legran_lights_r.color.png",
+        "specularMap": "vehicles/legran/legran_lights_s.color.png",
+        "specularPower": 32
+      },
+      {
+        "colorMap": "vehicles/legran/legran_lights_g.color.png",
+        "diffuseColor": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "emissive": true,
+        "glow": true,
+        "reflectivityMap": "vehicles/legran/legran_lights_r.color.png",
+        "specularMap": "vehicles/legran/legran_lights_s.color.png"
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": false,
+    "translucentBlendOp": "None"
+  },
+  "legran_lowbeam": {
+    "name": "legran_lowbeam",
+    "mapTo": "legran_lowbeam",
+    "class": "Material",
+    "persistentId": "effbf296-53f2-4d3f-82aa-7ee0e95a5ec5",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_main": {
+    "name": "legran_main",
+    "mapTo": "legran",
+    "class": "Material",
+    "persistentId": "c149d182-981e-4864-8d0d-6449b0372ece",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/legran/legran_main_ao.data.png",
+        "baseColorMap": "/vehicles/legran/legran_main_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/legran/legran_main_m.data.png",
+        "normalMap": "vehicles/legran/legran_n.normal.png",
+        "roughnessMap": "/vehicles/legran/legran_main_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/legran/legran_main_ao.data.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/legran/legran_main_cc.data.png",
+        "clearCoatRoughnessFactor": 1,
+        "colorPaletteMap": "/vehicles/legran/legran_main_p.color.png",
+        "colorPaletteMapUseUV": 1,
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/legran/legran_n.normal.png",
+        "opacityMap": "/vehicles/legran/legran_main_c.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "legran_reverselight": {
+    "name": "legran_reverselight",
+    "mapTo": "legran_reverselight",
+    "class": "Material",
+    "persistentId": "06699c1a-ae7d-4a86-a473-0dba33c11663",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_rollcage": {
+    "name": "legran_rollcage",
+    "mapTo": "legran_rollcage",
+    "class": "Material",
+    "persistentId": "966f9728-05d4-4d1d-9fe0-86fb1ba46520",
+    "Stages": [
+      {
+        "colorMap": "vehicles/legran/legran_rollcage_d.color.png",
+        "normalMap": "vehicles/legran/legran_rollcage_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/legran/legran_rollcage_r.color.png",
+        "specularMap": "vehicles/legran/legran_rollcage_s.color.png",
+        "specularPower": 128,
+        "useAnisotropic": true
+      },
+      {
+        "colorMap": "vehicles/legran/legran_rollcage_c.color.png",
+        "instanceDiffuse": true,
+        "normalMap": "vehicles/legran/legran_rollcage_n.normal.png",
+        "pixelSpecular": true,
+        "specularMap": "vehicles/legran/legran_rollcage_s.color.png",
+        "specularPower": 128,
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle"
+  },
+  "legran_signal_L": {
+    "name": "legran_signal_L",
+    "mapTo": "legran_signal_L",
+    "class": "Material",
+    "persistentId": "16905c43-ac8c-48d5-93db-d2f5a8ac5f5d",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_signal_R": {
+    "name": "legran_signal_R",
+    "mapTo": "legran_signal_R",
+    "class": "Material",
+    "persistentId": "cfb2ecbb-3c6e-49c4-b97d-0cc0314bb923",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_taillight_L": {
+    "name": "legran_taillight_L",
+    "mapTo": "legran_taillight_L",
+    "class": "Material",
+    "persistentId": "020982de-8606-4646-959a-318696579d77",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_taillight_R": {
+    "name": "legran_taillight_R",
+    "mapTo": "legran_taillight_R",
+    "class": "Material",
+    "persistentId": "cba1cfad-902f-494f-bd84-34eea11fbe16",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_checkengine": {
+    "name": "legran_checkengine",
+    "mapTo": "legran_checkengine",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_abs": {
+    "name": "legran_abs",
+    "mapTo": "legran_abs",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_ajar": {
+    "name": "legran_ajar",
+    "mapTo": "legran_ajar",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_battery": {
+    "name": "legran_battery",
+    "mapTo": "legran_battery",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_high_beam": {
+    "name": "legran_high_beam",
+    "mapTo": "legran_high_beam",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_lowfuel": {
+    "name": "legran_lowfuel",
+    "mapTo": "legran_lowfuel",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_lowpressure": {
+    "name": "legran_lowpressure",
+    "mapTo": "legran_lowpressure",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_temp": {
+    "name": "legran_temp",
+    "mapTo": "legran_temp",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "legran_windshield_dmg": {
+    "name": "legran_windshield_dmg",
+    "mapTo": "legran_windshield_dmg",
+    "class": "material",
+    "persistentId": "77111c48-a8b6-4ea8-841b-90d05945fb9b",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/legran/legran_glass_dmg_b.color.png",
+        "normalMap": "vehicles/common/windshield_dmg_n.dds",
+        "opacityMap": "/vehicles/legran/legran_glass_dmg_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 20,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "legran_wood": {
+    "name": "legran_wood",
+    "mapTo": "legran_wood",
+    "class": "Material",
+    "persistentId": "c149d182-981e-4864-8d0d-6449b0372ece",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/legran/legran_wood_b.color.png",
+        "metallicFactor": 0,
+        "normalMap": "vehicles/legran/legran_wood_n.normal.png",
+        "roughnessFactor": 0.1,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  }
+}

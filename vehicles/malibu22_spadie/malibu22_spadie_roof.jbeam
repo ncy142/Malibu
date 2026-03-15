@@ -1,0 +1,33 @@
+{
+"malibu22_spadie_roof": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Plain Roof (Body-Colored)",
+        "value":120,
+    },
+    "slotType" : "malibu22_spadie_roof",
+    "sounds": {
+        "$+cabinFilterCoef": 0.16
+    }
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["malibu22_spadie_roof_base", ["malibu22_spadie_body"]],
+
+    ],
+},
+"malibu22_spadie_roof_alt": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Moonroof",
+        "value":90,
+    },
+    "slotType" : "malibu22_spadie_roof",
+    "sounds": {
+        "$+cabinFilterCoef": 0.16
+    }
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         ["malibu22_spadie_roof_sunroof", ["malibu22_spadie_body"]],
+    ],
+},
+}

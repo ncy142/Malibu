@@ -1,0 +1,1333 @@
+{
+  "malibu22_spadie": {
+    "name": "malibu22_spadie",
+    "mapTo": "malibu22_spadie",
+    "class": "material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.133615598,
+          0.133615598,
+          0.133615598,
+          1
+        ],
+        "baseColorMap": "/vehicles/common/paint2/main_b.color.png",
+        "clearCoatFactor": null,
+        "clearCoatRoughnessFactor": 0,
+        "instanceDiffuse": null,
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/common/paint2/main_m.data.png",
+        "normalMap": "vehicles/common/null_n.dds",
+        "roughnessMap": "/vehicles/common/paint2/main_r.data.png"
+      },
+      {
+        "baseColorFactor": null,
+        "baseColorMap": "/vehicles/common/null",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "vehicles/common/paint2/main_cc.data.png",
+        "clearCoatRoughnessFactor": null,
+        "colorPaletteMap": "vehicles/common/paint2/main_p.color.png",
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "vehicles/common/null_n.dds",
+        "opacityMap": "vehicles/common/paint2/main_c.data.png"
+      },
+      {
+        "baseColorFactor": null,
+        "clearCoatFactor": null,
+        "clearCoatRoughnessFactor": null,
+        "instanceDiffuse": null,
+        "metallicFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "clearCoatFactor": null,
+        "clearCoatRoughnessFactor": null,
+        "instanceDiffuse": null,
+        "metallicFactor": null
+      }
+    ],
+    "activeLayers": 2,
+    "doubleSided": true,
+    "dynamicCubemap": true,
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_airbag": {
+    "name": "malibu22_spadie_airbag",
+    "mapTo": "malibu22_spadie_airbag",
+    "class": "material",
+    "persistentId": "5898f386-d01a-4ef5-b044-929d25f9e8a4",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_black": {
+    "name": "malibu22_spadie_black",
+    "mapTo": "malibu22_spadie_black",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.226769,
+          0.226769,
+          0.226769,
+          1
+        ],
+        "metallicFactor": 0.765999973,
+        "roughnessFactor": 0.444000006
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_black_plastic": {
+    "name": "malibu22_spadie_black_plastic",
+    "mapTo": "malibu22_spadie_black_plastic",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.312682986,
+          0.312682986,
+          0.312682986,
+          1
+        ],
+        "metallicFactor": 0.476000011,
+        "normalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_plastic_normal.jpg",
+        "roughnessFactor": 0.725000024
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_brakelight_L": {
+    "name": "malibu22_spadie_brakelight_L",
+    "mapTo": "malibu22_spadie_brakelight_L",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_brakelight_R": {
+    "name": "malibu22_spadie_brakelight_R",
+    "mapTo": "malibu22_spadie_brakelight_R",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_buttons": {
+    "name": "malibu22_spadie_buttons",
+    "mapTo": "malibu22_spadie_buttons",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_buttons_base.dds",
+        "metallicFactor": 0.0489999987,
+        "opacityMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_buttons_opacity.png",
+        "roughnessFactor": 0.361000001
+      },
+      {
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_carpet": {
+    "name": "malibu22_spadie_carpet",
+    "mapTo": "malibu22_spadie_carpet",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.329865992,
+          0.329865992,
+          0.329865992,
+          1
+        ],
+        "detailNormalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_carpet.dds",
+        "metallicFactor": 0.549000025,
+        "roughnessFactor": 0.920000017
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_chmsl": {
+    "name": "malibu22_spadie_chmsl",
+    "mapTo": "malibu22_spadie_chmsl",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_chrome": {
+    "name": "malibu22_spadie_chrome",
+    "mapTo": "malibu22_spadie_chrome",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.747983992,
+          0.747983992,
+          0.747983992,
+          1
+        ],
+        "metallicFactor": 0.893000007,
+        "roughnessFactor": 0.425999999
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_dash_addon": {
+    "name": "malibu22_spadie_dash_addon",
+    "mapTo": "malibu22_spadie_dash_addon",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.753711998,
+          0.753711998,
+          0.753711998,
+          1
+        ],
+        "metallicFactor": 0.582000017,
+        "roughnessFactor": 0.458000004
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_dash_secondary": {
+    "name": "malibu22_spadie_dash_secondary",
+    "mapTo": "malibu22_spadie_dash_secondary",
+    "class": "material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_doorpanel_leather": {
+    "name": "malibu22_spadie_doorpanel_leather",
+    "mapTo": "malibu22_spadie_doorpanel_leather",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.667797029,
+          0.618497014,
+          0.549224973,
+          1
+        ],
+        "normalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_leather_normals.jpg",
+        "roughnessFactor": 0.739000022
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_foglights": {
+    "name": "malibu22_spadie_foglights",
+    "mapTo": "malibu22_spadie_foglights",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_glass": {
+    "name": "malibu22_spadie_glass",
+    "mapTo": "malibu22_spadie_glass",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.639159024,
+          0.639159024,
+          0.639159024,
+          1
+        ],
+        "metallicFactor": 1,
+        "opacityFactor": 0.298999995,
+        "roughnessFactor": 0
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "version": 1.5
+  },
+  "malibu22_spadie_glass_dmg": {
+    "name": "malibu22_spadie_glass_dmg",
+    "mapTo": "malibu22_spadie_glass_dmg",
+    "class": "material",
+    "persistentId": "37af68be-f52f-4301-a69f-f29714c7b1b9",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          0.999989986,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "vehicles/malibu22_spadie/malibu22_spadie_glass_dmg_b.color.png",
+        "metallicFactor": 0.388000011,
+        "normalMap": "vehicles/malibu22_spadie/malibu22_spadie_glass_dmg_nm.normal.png",
+        "opacityFactor": 0.742999971,
+        "opacityMap": "/vehicles/malibu22_spadie/malibu22_spadie_glass_dmg_op.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 20,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "malibu22_spadie_glass_windshield_dmg": {
+    "name": "malibu22_spadie_glass_windshield_dmg",
+    "mapTo": "malibu22_spadie_glass_windshield_dmg",
+    "class": "material",
+    "persistentId": "37af68be-f52f-4301-a69f-f29714c7b1b9",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          0.999989986,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "vehicles/malibu22_spadie/malibu22_spadie_glass_dmg_b.color.png",
+        "metallicFactor": 0.388000011,
+        "normalMap": "vehicles/malibu22_spadie/malibu22_spadie_glass_dmg_nm.normal.png",
+        "opacityFactor": 0.742999971,
+        "opacityMap": "/vehicles/malibu22_spadie/malibu22_spadie_glass_dmg_op.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 20,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "malibu22_spadie_headliner": {
+    "name": "malibu22_spadie_headliner",
+    "mapTo": "malibu22_spadie_headliner",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_headliner_ao.data.dds",
+        "baseColorFactor": [
+          0.810988009,
+          0.777532995,
+          0.736666977,
+          1
+        ],
+        "normalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_headliner_n.normal.dds"
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      }
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_highbeam": {
+    "name": "malibu22_spadie_highbeam",
+    "mapTo": "malibu22_spadie_highbeam",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_leather_upper": {
+    "name": "malibu22_spadie_leather_upper",
+    "mapTo": "malibu22_spadie_leather_upper",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.730800986,
+          0.698222995,
+          0.668015003,
+          1
+        ],
+        "detailNormalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_plastic_normal.jpg",
+        "metallicFactor": 0.388000011
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_lights_on": {
+    "name": "malibu22_spadie_lights_on",
+    "mapTo": "malibu22_spadie_lights_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_lights.png",
+        "emissiveFactor": [
+          5.88235283,
+          5.88235283,
+          5.88235283
+        ],
+        "emissiveMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_lights.png"
+      },
+      {
+        "emissiveFactor": null
+      },
+      {
+        "emissiveFactor": null
+      },
+      {
+        "emissiveFactor": null
+      }
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_lights_on_intense": {
+    "name": "malibu22_spadie_lights_on_intense",
+    "mapTo": "malibu22_spadie_lights_on_intense",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_lights.png",
+        "emissiveFactor": [
+          9.8039217,
+          9.8039217,
+          9.8039217
+        ],
+        "emissiveMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_lights.png"
+      },
+      {
+        "emissiveFactor": null
+      },
+      {
+        "emissiveFactor": null
+      },
+      {
+        "emissiveFactor": null
+      }
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_lowbeam": {
+    "name": "malibu22_spadie_lowbeam",
+    "mapTo": "malibu22_spadie_lowbeam",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_non_tinted_glass": {
+    "name": "malibu22_spadie_non_tinted_glass",
+    "mapTo": "malibu22_spadie_non_tinted_glass",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.576155007,
+          0.576155007,
+          0.576155007,
+          1
+        ],
+        "metallicFactor": 1,
+        "opacityFactor": 0.32100001,
+        "roughnessFactor": 0
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "version": 1.5
+  },
+  "malibu22_spadie_orange": {
+    "name": "malibu22_spadie_orange",
+    "mapTo": "malibu22_spadie_orange",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.730800986,
+          0.508270025,
+          0.391754001,
+          1
+        ],
+        "metallicFactor": 0.129999995,
+        "roughnessFactor": 0.0489999987
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_perf_seats": {
+    "name": "malibu22_spadie_perf_seats",
+    "mapTo": "malibu22_spadie_perf_seats",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.650614023,
+          0.619688988,
+          0.594717026,
+          1
+        ],
+        "detailNormalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_perf.dds",
+        "metallicFactor": 0.42899999,
+        "roughnessFactor": 0.748000026
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_red_addon": {
+    "name": "malibu22_spadie_red_addon",
+    "mapTo": "malibu22_spadie_red_addon",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.679252028,
+          0,
+          0,
+          1
+        ],
+        "metallicFactor": 0.0890000015,
+        "roughnessFactor": 0.254999995
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_red_needles": {
+    "name": "malibu22_spadie_red_needles",
+    "mapTo": "malibu22_spadie_red_needles",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.79953301,
+          0,
+          0,
+          1
+        ],
+        "emissiveFactor": [
+          1,
+          0,
+          0
+        ],
+        "metallicFactor": 0.765999973,
+        "roughnessFactor": 0.444000006
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_red_on": {
+    "name": "malibu22_spadie_red_on",
+    "mapTo": "malibu22_spadie_red_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "emissiveFactor": [
+          7.84313822,
+          0,
+          0
+        ]
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null
+      }
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_red_taillight": {
+    "name": "malibu22_spadie_red_taillight",
+    "mapTo": "malibu22_spadie_red_taillight",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.421508014,
+          0.291139007,
+          0.291139007,
+          1
+        ],
+        "metallicFactor": 1,
+        "opacityFactor": 0.42899999,
+        "roughnessFactor": 0
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "version": 1.5
+  },
+  "malibu22_spadie_reverselights": {
+    "name": "malibu22_spadie_reverselights",
+    "mapTo": "malibu22_spadie_reverselights",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_screens": {
+    "name": "malibu22_spadie_screens",
+    "mapTo": "malibu22_spadie_screens",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "baseColorMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_screens.dds",
+        "emissiveMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_screens.dds",
+        "metallicFactor": 1,
+        "roughnessFactor": 0.888999999
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_screens_infotament": {
+    "name": "malibu22_spadie_screens_infotament",
+    "mapTo": "malibu22_spadie_screens_infotament",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ],
+        "baseColorMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_screens_on.dds",
+        "emissiveFactor": [
+          0.604793012,
+          0.604793012,
+          0.604793012
+        ],
+        "emissiveMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_screens_on.dds",
+        "metallicFactor": 0.0270000007,
+        "roughnessFactor": 0.418000013
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_seats": {
+    "name": "malibu22_spadie_seats",
+    "mapTo": "malibu22_spadie_seats",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.581882,
+          0.52798599,
+          0.495229006,
+          1
+        ],
+        "detailNormalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_plastic_normal.jpg",
+        "metallicFactor": 0.233999997,
+        "roughnessFactor": 0.748000026
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_signal_L": {
+    "name": "malibu22_spadie_signal_L",
+    "mapTo": "malibu22_spadie_signal_L",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_signal_R": {
+    "name": "malibu22_spadie_signal_R",
+    "mapTo": "malibu22_spadie_signal_R",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_taillight_frame": {
+    "name": "malibu22_spadie_taillight_frame",
+    "mapTo": "malibu22_spadie_taillight_frame",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.639159024,
+          0.0424369983,
+          0.0424369983,
+          1
+        ],
+        "metallicFactor": 0.437000006,
+        "roughnessFactor": 0.294999987
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_taillights": {
+    "name": "malibu22_spadie_taillights",
+    "mapTo": "malibu22_spadie_taillights",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.800000012,
+          0.800000012,
+          0.800000012,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "translucentBlendOp": "None"
+  },
+  "malibu22_spadie_tinted_glass": {
+    "name": "malibu22_spadie_tinted_glass",
+    "mapTo": "malibu22_spadie_tinted_glass",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.215313002,
+          0.215313002,
+          0.215313002,
+          1
+        ],
+        "metallicFactor": 1,
+        "opacityFactor": 0.879000008,
+        "roughnessFactor": 0
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "opacityFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "version": 1.5
+  },
+  "malibu22_spadie_wheels": {
+    "name": "malibu22_spadie_wheels",
+    "mapTo": "malibu22_spadie_wheels",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.72507298,
+          0.72507298,
+          0.72507298,
+          1
+        ],
+        "metallicFactor": 0.882000029,
+        "roughnessFactor": 0.531000018
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "metallicFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "dynamicCubemap": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "malibu22_spadie_yellow_on": {
+    "name": "malibu22_spadie_yellow_on",
+    "mapTo": "malibu22_spadie_yellow_on",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.770893991,
+          0.583028018,
+          0.408831,
+          1
+        ],
+        "emissiveFactor": [
+          6.47058916,
+          2.35294104,
+          0.270588011
+        ]
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "emissiveFactor": null
+      }
+    ],
+    "translucentBlendOp": "None",
+    "version": 1.5
+  }
+}

@@ -1,0 +1,18 @@
+{
+"malibu22_spadie_airbags": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Airbags",
+        "value":330,
+    },
+    "slotType" : "malibu22_spadie_airbags",
+    "flexbodies": [
+         ["mesh", "[group]:", "nonFlexMaterials"],
+         {"deformGroup":"windshield_break", "deformMaterialBase":"glass_invisible", "deformMaterialDamaged":"malibu22_spadie_airbag"},
+         ["malibu22_spadie_airbags", ["malibu22_spadie_body"]],
+         {"deformGroup":""},
+
+
+    ],
+},
+}

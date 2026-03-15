@@ -1,0 +1,425 @@
+{
+"malibu22_spadie_brake_F": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Front Disc Brakes",
+        "value":250,
+    },
+    "slotType" : "malibu22_spadie_brake_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_F","brakepad_F", "Front Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_disc_solid", ["wheel_FR","wheelhub_FR"], [],                  {"pos":{"x":-0.77, "y":-1.34, "z":0.33}, "scale":{"x":0.95, "y":0.95, "z":0.95}, "rot":{"x": 0,    "y":180, "z":0   }}],
+        ["brake_disc_solid", ["wheel_FL","wheelhub_FL"], [],                  {"pos":{"x": 0.77, "y":-1.34, "z":0.33}, "scale":{"x":0.95, "y":0.95, "z":0.95}, "rot":{"x": 180,  "y":180, "z":0   }}],
+        ["brake_caliper_standard_plain", ["malibu22_spadie_hub_F","wheelhub_FR"], [], {"pos":{"x":-0.77, "y":-1.335, "z":0.33}, "scale":{"x":0.95, "y":0.88, "z":0.88}, "rot":{"x": 8,    "y":0,   "z":0   }}],
+        ["brake_caliper_standard_plain", ["malibu22_spadie_hub_F","wheelhub_FL"], [], {"pos":{"x": 0.77, "y":-1.335, "z":0.33}, "scale":{"x":0.95, "y":0.88, "z":0.88}, "rot":{"x":-8,    "y":180, "z":0   }}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*2650"},
+        {"brakeInputSplit":1},
+        {"brakeSplitCoef":1},
+        {"parkingTorque":0},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.26},
+        {"brakeMass":6.5},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":1.0},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.0}
+    ],
+},
+"malibu22_spadie_brake_R": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Rear Disc Brakes",
+        "value":200,
+    },
+    "slotType" : "malibu22_spadie_brake_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_R","brakepad_R", "Rear Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_disc_solid", ["wheel_RR","wheelhub_RR"], [],                  {"pos":{"x":-0.76, "y":1.48, "z":0.31}, "scale":{"x":0.863, "y":0.863, "z":0.863}, "rot":{"x": 0,    "y":180, "z":0   }}],
+        ["brake_disc_solid", ["wheel_RL","wheelhub_RL"], [],                  {"pos":{"x": 0.76, "y":1.48, "z":0.31}, "scale":{"x":0.863, "y":0.863, "z":0.863}, "rot":{"x": 180,  "y":180, "z":0   }}],
+        ["brake_caliper_standard_plain", ["malibu22_spadie_hub_R","wheelhub_RR"], [], {"pos":{"x":-0.76, "y":1.48, "z":0.31}, "scale":{"x":0.863, "y":0.81,  "z":0.81},  "rot":{"x": 180,  "y":0,   "z":0   }}],
+        ["brake_caliper_standard_plain", ["malibu22_spadie_hub_R","wheelhub_RL"], [], {"pos":{"x": 0.76, "y":1.48, "z":0.31}, "scale":{"x":0.863, "y":0.81,  "z":0.81},  "rot":{"x":-180,  "y":180, "z":0   }}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*1050"},
+        {"brakeInputSplit":0.5},
+        {"brakeSplitCoef":0.5},
+        {"parkingTorque":1300},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.24},
+        {"brakeMass":4.0},
+        {"brakeType":"disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":0.8},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.0}
+    ],
+},
+"malibu22_spadie_brake_F_sport": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Sport Front Disc Brakes",
+        "value":310,
+    },
+    "slotType" : "malibu22_spadie_brake_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_F","brakepad_F_sport", "Front Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //brake discs
+        ["brake_disc_plain",             ["wheel_FR","wheelhub_FR"],  [], {"pos":{"x":-0.77, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":1.0, "z":1.0}, "rot":{"x":0,   "y":0,   "z":0  }}],
+        ["brake_disc_plain",             ["wheel_FL","wheelhub_FL"],  [], {"pos":{"x": 0.77, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":1.0, "z":1.0}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_plain", ["malibu22_spadie_hub_F","wheelhub_FR"], [], {"pos":{"x":-0.77, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":0.87, "z":0.87}, "rot":{"x":0    "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_plain", ["malibu22_spadie_hub_F","wheelhub_FL"], [], {"pos":{"x": 0.77, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":0.87, "z":0.87}, "rot":{"x":0,   "y":180, "z":0  }}],
+    ],
+
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*2100"},
+        {"brakeInputSplit":1},
+        {"brakeSplitCoef":1},
+        {"parkingTorque":0},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.29},
+        {"brakeMass":6.5},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":1.0},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.5}
+    ],
+},
+"malibu22_spadie_brake_R_sport": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Sport Rear Disc Brakes",
+        "value":270,
+    },
+    "slotType" : "malibu22_spadie_brake_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_R","brakepad_R_sport", "Rear Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_disc_plain",             ["wheel_RR","wheelhub_RR"],      [], {"pos":{"x":-0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.9, "z":0.9}, "rot":{"x":0,   "y":0,   "z":0  }}],
+        ["brake_disc_plain",             ["wheel_RL","wheelhub_RL"],      [], {"pos":{"x": 0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.9, "z":0.9}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_standard_plain", ["malibu22_spadie_hub_R","wheelhub_RR"], [], {"pos":{"x":-0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.81, "z":0.81}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_standard_plain", ["malibu22_spadie_hub_R","wheelhub_RL"], [], {"pos":{"x": 0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.81, "z":0.81}, "rot":{"x":180, "y":180, "z":0  }}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*850"},
+        {"brakeInputSplit":0.5},
+        {"brakeSplitCoef":0.5},
+        {"parkingTorque":1200},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.25},
+        {"brakeMass":4.0},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":0.8},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.0}
+    ],
+},
+"malibu22_spadie_brake_F_gtz": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Sport GTz Front Disc Brakes",
+        "value":360,
+    },
+    "slotType" : "malibu22_spadie_brake_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_F","brakepad_F_sport", "Front Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        //brake discs
+        ["brake_disc_plain",             ["wheel_FR","wheelhub_FR"], [], {"pos":{"x":-0.77, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":1.0, "z":1.0}, "rot":{"x":0,   "y":0,   "z":0  }}],
+        ["brake_disc_plain",             ["wheel_FL","wheelhub_FL"], [], {"pos":{"x": 0.77, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":1.0, "z":1.0}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_blue", ["malibu22_spadie_hub_F","wheelhub_FR"], [], {"pos":{"x":-0.77, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":0.87, "z":0.87}, "rot":{"x":0    "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_blue", ["malibu22_spadie_hub_F","wheelhub_FL"], [], {"pos":{"x": 0.77, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":0.87, "z":0.87}, "rot":{"x":0,   "y":180, "z":0  }}],
+    ],
+
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*2100"},
+        {"brakeInputSplit":1},
+        {"brakeSplitCoef":1},
+        {"parkingTorque":0},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.29},
+        {"brakeMass":6.5},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":1.1},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.5}
+    ],
+},
+"malibu22_spadie_brake_R_gtz": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Sport GTz Rear Disc Brakes",
+        "value":310,
+    },
+    "slotType" : "malibu22_spadie_brake_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_R","brakepad_R_sport", "Rear Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_disc_plain",             ["wheel_RR","wheelhub_RR"],      [], {"pos":{"x":-0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.9, "z":0.9}, "rot":{"x":0,   "y":0,   "z":0  }}],
+        ["brake_disc_plain",             ["wheel_RL","wheelhub_RL"],      [], {"pos":{"x": 0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.9, "z":0.9}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_standard_blue", ["malibu22_spadie_hub_R","wheelhub_RR"], [], {"pos":{"x":-0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.81, "z":0.81}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_standard_blue", ["malibu22_spadie_hub_R","wheelhub_RL"], [], {"pos":{"x": 0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.81, "z":0.81}, "rot":{"x":180, "y":180, "z":0  }}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*850"},
+        {"brakeInputSplit":0.5},
+        {"brakeSplitCoef":0.5},
+        {"parkingTorque":1200},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.25},
+        {"brakeMass":4.0},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":0.9},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.0}
+    ],
+},
+"malibu22_spadie_brake_F_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race Front Disc Brakes",
+        "value":700,
+    },
+    "slotType" : "malibu22_spadie_brake_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_F","brakepad_F_race", "Front Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_disc_slotted",             ["wheel_FR","wheelhub_FR"],      [], {"pos":{"x":-0.775, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":0.95, "z":0.95}, "rot":{"x":0,   "y":0,   "z":0  }}],
+        ["brake_disc_slotted",             ["wheel_FL","wheelhub_FL"],      [], {"pos":{"x": 0.775, "y":-1.34, "z":0.33}, "scale":{"x":1.1, "y":0.95, "z":0.95}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_6pot_red_rotopad", ["malibu22_spadie_hub_F","wheelhub_FR"], [], {"pos":{"x":-0.775, "y":-1.34, "z":0.33}, "scale":{"x":1.2, "y":0.95, "z":0.95}, "rot":{"x":0    "y":0,   "z":0  }}],
+        ["brake_caliper_6pot_red_rotopad", ["malibu22_spadie_hub_F","wheelhub_FL"], [], {"pos":{"x": 0.775, "y":-1.34, "z":0.33}, "scale":{"x":1.2, "y":0.95, "z":0.95}, "rot":{"x":0,   "y":180, "z":0  }}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        //["$braketorque_F", "range", "", "Brakes", 2400, 0, 4000, "Front Brake Torque", "Strength of the front brakes", {"minDis":0}]
+        //["$braketorque", "range", "", "Brakes", 3600, 1000, 5000, "Max Brake Torque", "Scales the overall brake torque", {"minDis":0}]
+        ["$brakebias", "range", "", "Brakes", 0.67, 0, 1, "Front/Rear Bias", "Percent of brake torque to the front wheels", {"minDis":0, "maxDis":100}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*3600*$brakebias"},
+        {"brakeInputSplit":1},
+        {"brakeSplitCoef":1},
+        {"parkingTorque":0},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.31},
+        {"brakeMass":7.5},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":1.4},
+        //brake sounds
+        {"squealCoefNatural": 1.0, "squealCoefLowSpeed": 1.0}
+    ],
+},
+"malibu22_spadie_brake_R_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race Rear Disc Brakes",
+        "value":670,
+    },
+    "slotType" : "malibu22_spadie_brake_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_R","brakepad_R_race", "Rear Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_disc_slotted",             ["wheel_RR","wheelhub_RR"],      [], {"pos":{"x":-0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.83, "z":0.83}, "rot":{"x":0,   "y":0,   "z":0  }}],
+        ["brake_disc_slotted",             ["wheel_RL","wheelhub_RL"],      [], {"pos":{"x": 0.76, "y":1.48, "z":0.31}, "scale":{"x":1.1, "y":0.83, "z":0.83}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_red_rotopad", ["malibu22_spadie_hub_R","wheelhub_RR"], [], {"pos":{"x":-0.76, "y":1.48, "z":0.31}, "scale":{"x":1.2, "y":0.9, "z":0.83}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_red_rotopad", ["malibu22_spadie_hub_R","wheelhub_RL"], [], {"pos":{"x": 0.76, "y":1.48, "z":0.31}, "scale":{"x":1.2, "y":0.9, "z":0.83}, "rot":{"x":180, "y":180, "z":0  }}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        //["$braketorque_R", "range", "", "Brakes", 1200, 0, 2500, "Rear Brake Torque", "Strength of the rear brakes", {"minDis":0}]
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        //if no race front brake, use default value
+        //{"brakeTorque":"$=case($brakebias == nil, $brakestrength*900, $brakestrength*3600*(1-$brakebias))"},
+        {"brakeTorque":"$=$brakebias == nil and $brakestrength*900 or $brakestrength*3600*(1-$brakebias)"},
+        {"brakeInputSplit":1},
+        {"brakeSplitCoef":1},
+        {"parkingTorque":1500},
+        {"brakeSpring":115},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.27},
+        {"brakeMass":5.0},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":1.0},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.0}
+    ],
+},
+"malibu22_spadie_touring_brake_F_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race Front Disc Brakes",
+        "value":700,
+    },
+    "slotType" : "malibu22_spadie_touring_brake_F",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_F","brakepad_F_race", "Front Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_disc_drilled",             ["wheel_FR","wheelhub_FR"],      [], {"pos":{"x":-0.80, "y":-1.34, "z":0.39}, "scale":{"x":1.1, "y":1.06, "z":1.06}, "rot":{"x":0,   "y":0,   "z":0  }}],
+        ["brake_disc_drilled",             ["wheel_FL","wheelhub_FL"],      [], {"pos":{"x": 0.80, "y":-1.34, "z":0.39}, "scale":{"x":1.1, "y":1.06, "z":1.06}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_6pot_red_rotopad", ["malibu22_spadie_hub_F","wheelhub_FR"], [], {"pos":{"x":-0.80, "y":-1.345, "z":0.39}, "scale":{"x":1.2, "y":1.06, "z":1.06}, "rot":{"x":0    "y":0,   "z":0  }}],
+        ["brake_caliper_6pot_red_rotopad", ["malibu22_spadie_hub_F","wheelhub_FL"], [], {"pos":{"x": 0.80, "y":-1.345, "z":0.39}, "scale":{"x":1.2, "y":1.06, "z":1.06}, "rot":{"x":0,   "y":180, "z":0  }}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        //["$braketorque_F", "range", "", "Brakes", 2400, 0, 4000, "Front Brake Torque", "Strength of the front brakes", {"minDis":0}]
+        //["$braketorque", "range", "", "Brakes", 3600, 1000, 5000, "Max Brake Torque", "Scales the overall brake torque", {"minDis":0}]
+        ["$brakebias", "range", "", "Brakes", 0.7, 0, 1, "Front/Rear Bias", "Percent of brake torque to the front wheels", {"minDis":0, "maxDis":100}],
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"brakeTorque":"$=$brakestrength*3600*$brakebias"},
+        {"brakeInputSplit":1},
+        {"brakeSplitCoef":1},
+        {"parkingTorque":0},
+        {"brakeSpring":125},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.34},
+        {"brakeMass":7.5},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":1.6},
+        //brake sounds
+        {"squealCoefNatural": 1.0, "squealCoefLowSpeed": 1.0}
+    ],
+},
+"malibu22_spadie_touring_brake_R_race": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Race Rear Disc Brakes",
+        "value":670,
+    },
+    "slotType" : "malibu22_spadie_touring_brake_R",
+    "slots": [
+        ["type", "default", "description"],
+        ["brakepad_R","brakepad_R_race", "Rear Brake Pads", {"coreSlot":true}],
+    ],
+    "flexbodies": [
+        ["mesh", "[group]:", "nonFlexMaterials"],
+        ["brake_disc_drilled",             ["wheel_RR","wheelhub_RR"],      [], {"pos":{"x":-0.77, "y":1.37, "z":0.39}, "scale":{"x":1.1, "y":0.99, "z":0.99}, "rot":{"x":0,   "y":0,   "z":0  }}],
+        ["brake_disc_drilled",             ["wheel_RL","wheelhub_RL"],      [], {"pos":{"x": 0.77, "y":1.37, "z":0.39}, "scale":{"x":1.1, "y":0.99, "z":0.99}, "rot":{"x":180, "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_red_rotopad", ["malibu22_spadie_hub_R","wheelhub_RR"], [], {"pos":{"x":-0.77, "y":1.37, "z":0.39}, "scale":{"x":1.2, "y":0.99, "z":0.99}, "rot":{"x":0, "y":0,   "z":0  }}],
+        ["brake_caliper_4pot_red_rotopad", ["malibu22_spadie_hub_R","wheelhub_RL"], [], {"pos":{"x": 0.77, "y":1.37, "z":0.39}, "scale":{"x":1.2, "y":0.99, "z":0.99}, "rot":{"x":0, "y":180, "z":0  }}],
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        //["$braketorque_R", "range", "", "Brakes", 1200, 0, 2500, "Rear Brake Torque", "Strength of the rear brakes", {"minDis":0}]
+    ],
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        //if no race front brake, use default value
+        //{"brakeTorque":"$=case($brakebias == nil, $brakestrength*900, $brakestrength*3600*(1-$brakebias))"},
+        {"brakeTorque":"$=$brakebias == nil and $brakestrength*900 or $brakestrength*3600*(1-$brakebias)"},
+        {"brakeInputSplit":1},
+        {"brakeSplitCoef":1},
+        {"parkingTorque":1500},
+        {"brakeSpring":115},
+
+        //brake thermals
+        {"enableBrakeThermals":true},
+        {"brakeDiameter":0.3},
+        {"brakeMass":5.0},
+        {"brakeType":"vented-disc"},
+        {"rotorMaterial":"steel"},
+        {"brakeVentingCoef":1.2},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.0}
+    ],
+},
+"malibu22_spadie_ABS": {
+    "information":{
+        "authors":"BeamNG",
+        "name":"Anti-Lock Braking System",
+        "value":250,
+    },
+    "slotType":"malibu22_spadie_ABS",
+    "pressureWheels": [
+        ["name","hubGroup","group","node1:","node2:","nodeS","nodeArm:","wheelDir"],
+        //brakes
+        {"enableABS":true},
+        //brake sounds
+        {"squealCoefNatural": 0.0, "squealCoefLowSpeed": 0.0}
+    ],
+},
+}

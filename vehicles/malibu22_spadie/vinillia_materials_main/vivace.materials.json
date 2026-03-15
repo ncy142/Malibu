@@ -1,0 +1,1025 @@
+{
+  "vivace_EV": {
+    "name": "vivace_EV",
+    "mapTo": "vivace_EV",
+    "class": "material",
+    "persistentId": "342cb0aa-f2c4-4dac-a91b-002f67273ccd",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_EV_d.color.png",
+        "normalMap": "vehicles/vivace/vivace_EV_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/vivace/vivace_EV_r.color.png",
+        "specularMap": "vehicles/vivace/vivace_EV_s.color.png",
+        "specularPower": 64
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "vivace_naviscreen_accessory" : {
+    "name" : "vivace_naviscreen_accessory",
+    "mapTo": "vivace_naviscreen_accessory",
+    "class" : "Material",
+    "persistentId" : "ed4c0c35-2305-4f49-9813-b2f4e088359b",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/screen_generic_b.color.png",
+        "metallicFactor": 1,
+       "emissiveFactor": [
+         1,
+         1,
+         1
+       ],
+       "emissiveMap": "/vehicles/vivace/vivace_screen_a.color.png",
+        "metallicMap": "vehicles/common/screen_generic_m.data.png",
+        "roughnessMap": "vehicles/common/screen_generic_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "vivace_s_naviscreen_accessory" : {
+    "name" : "vivace_s_naviscreen_accessory",
+    "mapTo": "vivace_s_naviscreen_accessory",
+    "class" : "Material",
+    "persistentId" : "ed4c0c35-2305-4f49-9813-b2f4e088359b",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/screen_generic_b.color.png",
+        "metallicFactor": 1,
+       "emissiveFactor": [
+         1,
+         1,
+         1
+       ],
+       "emissiveMap": "/vehicles/vivace/vivace_screen_s.color.png",
+        "metallicMap": "vehicles/common/screen_generic_m.data.png",
+        "roughnessMap": "vehicles/common/screen_generic_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "vivace_e_naviscreen_accessory" : {
+    "name" : "vivace_e_naviscreen_accessory",
+    "mapTo": "vivace_e_naviscreen_accessory",
+    "class" : "Material",
+    "persistentId" : "ed4c0c35-2305-4f49-9813-b2f4e088359b",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/screen_generic_b.color.png",
+        "metallicFactor": 1,
+       "emissiveFactor": [
+         1,
+         1,
+         1
+       ],
+       "emissiveMap": "/vehicles/vivace/vivace_screen_e.color.png",
+        "metallicMap": "vehicles/common/screen_generic_m.data.png",
+        "roughnessMap": "vehicles/common/screen_generic_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "tograc_e_naviscreen_accessory" : {
+    "name" : "tograc_e_naviscreen_accessory",
+    "mapTo": "tograc_e_naviscreen_accessory",
+    "class" : "Material",
+    "persistentId" : "ed4c0c35-2305-4f49-9813-b2f4e088359b",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/screen_generic_b.color.png",
+        "metallicFactor": 1,
+       "emissiveFactor": [
+         1,
+         1,
+         1
+       ],
+       "emissiveMap": "/vehicles/vivace/tograc_screen_e.color.png",
+        "metallicMap": "vehicles/common/screen_generic_m.data.png",
+        "roughnessMap": "vehicles/common/screen_generic_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "tograc_naviscreen_accessory" : {
+    "name" : "tograc_naviscreen_accessory",
+    "mapTo": "tograc_naviscreen_accessory",
+    "class" : "Material",
+    "persistentId" : "ed4c0c35-2305-4f49-9813-b2f4e088359b",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/screen_generic_b.color.png",
+        "metallicFactor": 1,
+       "emissiveFactor": [
+         1,
+         1,
+         1
+       ],
+       "emissiveMap": "/vehicles/vivace/tograc_screen_a.color.png",
+        "metallicMap": "vehicles/common/screen_generic_m.data.png",
+        "roughnessMap": "vehicles/common/screen_generic_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "vivace_gauges_screen_accessory" : {
+    "name" : "vivace_gauges_screen_accessory",
+    "mapTo": "vivace_gauges_screen_accessory",
+    "class" : "Material",
+    "persistentId" : "ed4c0c35-2305-4f49-9813-b2f4e088359b",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/screen_generic_b.color.png",
+        "metallicFactor": 1,
+       "emissiveFactor": [
+         1,
+         1,
+         1
+       ],
+       "emissiveMap": "/vehicles/vivace/gauges_screen/vivace_gauges_screen_accessory.color.png",
+        "metallicMap": "vehicles/common/screen_generic_m.data.png",
+        "roughnessMap": "vehicles/common/screen_generic_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+      },
+  "tograc_gauges_screen_accessory" : {
+    "name" : "tograc_gauges_screen_accessory",
+    "mapTo": "tograc_gauges_screen_accessory",
+    "class" : "Material",
+    "persistentId" : "ed4c0c35-2305-4f49-9813-b2f4e088359b",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/common/screen_generic_b.color.png",
+        "metallicFactor": 1,
+       "emissiveFactor": [
+         1,
+         1,
+         1
+       ],
+       "emissiveMap": "/vehicles/vivace/gauges_screen/tograc_gauges_screen_accessory.color.png",
+        "metallicMap": "vehicles/common/screen_generic_m.data.png",
+        "roughnessMap": "vehicles/common/screen_generic_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+},
+  "vivace_brakelight": {
+    "name": "vivace_brakelight",
+    "mapTo": "vivace_brakelight",
+    "class": "Material",
+    "persistentId": "2aa234c7-9e53-48c1-84e8-e899a503b2c7",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_brakelight_L": {
+    "name": "vivace_brakelight_L",
+    "mapTo": "vivace_brakelight_L",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_brakelight_R": {
+    "name": "vivace_brakelight_R",
+    "mapTo": "vivace_brakelight_R",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_chmsl": {
+    "name": "vivace_chmsl",
+    "mapTo": "vivace_chmsl",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_drl": {
+    "name": "vivace_drl",
+    "mapTo": "vivace_drl",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_drl_signal_L": {
+    "name": "vivace_drl_signal_L",
+    "mapTo": "vivace_drl_signal_L",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_drl_signal_R": {
+    "name": "vivace_drl_signal_R",
+    "mapTo": "vivace_drl_signal_R",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_engine": {
+    "name": "vivace_engine",
+    "mapTo": "vivace_engine",
+    "class": "material",
+    "persistentId": "342cb0aa-f2c4-4dac-a91b-002f67273ccd",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_engine_d.color.png",
+        "normalMap": "vehicles/vivace/vivace_engine_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/vivace/vivace_engine_r.color.png",
+        "specularMap": "vehicles/vivace/vivace_engine_s.color.png",
+        "specularPower": 64
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "vivace_gauges": {
+    "name": "vivace_gauges",
+    "mapTo": "vivace_gauges",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_gauges_d.png",
+        "specular": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "specularPower": 128
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "vivace_gauges_break": {
+    "name": "vivace_gauges_break",
+    "mapTo": "vivace_gauges_break",
+    "class": "material",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "specularPower": 128
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "vivace_glass": {
+    "name": "vivace_glass",
+    "mapTo": "vivace_glass",
+    "class": "Material",
+    "persistentId": "64192537-4ee6-4caa-8c8d-e835635f0c94",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/vivace/vivace_glass_b.color.png",
+        "normalMap": "/vehicles/vivace/vivace_glass_n.normal.png",
+        "opacityMap": "/vehicles/vivace/vivace_glass_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "vivace_glass_dmg": {
+    "name": "vivace_glass_dmg",
+    "mapTo": "vivace_glass_dmg",
+    "class": "Material",
+    "persistentId": "64192537-4ee6-4caa-8c8d-e835635f0c94",
+    "Stages": [
+      {
+        "baseColorMap": "vehicles/vivace/vivace_glass_dmg_b.color.png",
+        "normalMap": "/vehicles/vivace/vivace_glass_damage_n.normal.png",
+        "opacityMap": "/vehicles/vivace/vivace_glass_dmg_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 20,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 1852795252,
+    "translucent": true,
+    "translucentBlendOp": "PreMulAlpha",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "vivace_glass_int": {
+    "name": "vivace_glass_int",
+    "mapTo": "vivace_glass_int",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_glass_d.color.png",
+        "diffuseColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "pixelSpecular": true,
+        "specularMap": "vehicles/common/null.dds",
+        "specularPower": 128,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 256,
+    "alphaTest": true,
+    "castShadows": false,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": false
+  },
+  "vivace_glowdebug": {
+    "name": "vivace_glowdebug",
+    "mapTo": "vivace_glowdebug",
+    "class": "Material",
+    "persistentId": "",
+    "Stages": [
+      {
+        "diffuseColor": [
+          0.9,
+          0,
+          0.9,
+          1
+        ],
+        "emissive": true,
+        "glow": false
+      },
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  },
+  "vivace_grille": {
+    "name": "vivace_grille",
+    "mapTo": "vivace_grille",
+    "class": "Material",
+    "persistentId": "723181f5-6a1d-4117-9819-a3c64849d8b2",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/vivace_grille_ao.data.png",
+        "baseColorMap": "/vehicles/vivace/vivace_grille_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/vivace/vivace_grille_m.data.png",
+        "normalMap": "vehicles/vivace/vivace_grille_nm.normal.png",
+        "opacityMap": "/vehicles/vivace/vivace_grille_a.data.png",
+        "roughnessMap": "/vehicles/vivace/vivace_grille_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 10,
+    "alphaTest": true,
+    "doubleSided": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "vivace_grille2": {
+    "name": "vivace_grille2",
+    "mapTo": "vivace_grille2",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/vivace_grille2_ao.data.png",
+        "baseColorMap": "/vehicles/vivace/vivace_grille2_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/vivace/vivace_grille2_m.data.png",
+        "normalMap": "vehicles/vivace/vivace_grille2_nm.normal.png",
+        "opacityMap": "/vehicles/vivace/vivace_grille2_a.data.png",
+        "roughnessMap": "/vehicles/vivace/vivace_grille2_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 20,
+    "alphaTest": true,
+    "doubleSided": true,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "vivace_highbeam": {
+    "name": "vivace_highbeam",
+    "mapTo": "vivace_highbeam",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_int_stripped": {
+    "name": "vivace_int_stripped",
+    "mapTo": "vivace_int_stripped",
+    "class": "Material",
+    "persistentId": "c9427650-79e7-481b-a508-e41c0e53254d",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/vivace_int_stripped_ao.data.png",
+        "baseColorMap": "/vehicles/vivace/vivace_int_stripped_b.color.png",
+        "metallicFactor": 1,
+        "normalMap": "vehicles/vivace/vivace_int_stripped_nm.normal.png",
+        "roughnessMap": "/vehicles/vivace/vivace_int_stripped_r.data.png"
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/vivace_int_stripped_ao.data.png",
+        "baseColorMap": "/vehicles/vivace/vivace_int_stripped_b.color.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/vivace/vivace_int_stripped_cc.data.png",
+        "colorPaletteMap": "/vehicles/common/nullcolormaskR.dds",
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/vivace/vivace_int_stripped_nm.normal.png",
+        "opacityMap": "/vehicles/vivace/vivace_int_stripped_c.data.png"
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
+  },
+  "vivace_interior": {
+    "name": "vivace_interior",
+    "mapTo": "vivace_interior",
+    "class": "Material",
+    "persistentId": "212bbfc1-2cf4-474e-8757-8b4052512f1d",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/vivace_interior_ao.data.png",
+        "baseColorMap": "vehicles/vivace/vivace_interior_b.color.png",
+        "clearCoatRoughnessFactor": 0,
+        "metallicFactor": 1,
+        "metallicMap": "vehicles/vivace/vivace_interior_m.data.png",
+        "normalMap": "vehicles/vivace/vivace_interior_nm.normal.png",
+        "opacityFactor": 0,
+        "pixelSpecular": true,
+        "roughnessMap": "vehicles/vivace/vivace_interior_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "vivace_lights": {
+    "name": "vivace_lights",
+    "mapTo": "vivace_lights",
+    "class": "material",
+    "persistentId": "ee7e0cbd-36ba-45d8-a25a-a2d868721374",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_lights_d.color.png",
+        "normalMap": "vehicles/vivace/vivace_lights_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/vivace/vivace_lights_r.color.png",
+        "specularMap": "vehicles/vivace/vivace_lights_s.color.png",
+        "specularPower": 128
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "vivace_lights_on": {
+    "name": "vivace_lights_on",
+    "mapTo": "vivace_lights_on",
+    "class": "material",
+    "persistentId": "ee7e0cbd-36ba-45d8-a25a-a2d868721374",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_lights_d.color.png",
+        "emissive": false,
+        "normalMap": "vehicles/vivace/vivace_lights_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/vivace/vivace_lights_r.color.png",
+        "specularMap": "vehicles/vivace/vivace_lights_s.color.png",
+        "specularPower": 128
+      },
+      {
+        "colorMap": "vehicles/vivace/vivace_lights_g.color.png",
+        "diffuseColor": [
+          1,
+          1,
+          1,
+          0.3
+        ],
+        "emissive": true,
+        "glow": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "vivace_lights_on_intense": {
+    "name": "vivace_lights_on_intense",
+    "mapTo": "vivace_lights_on_intense",
+    "class": "material",
+    "persistentId": "ee7e0cbd-36ba-45d8-a25a-a2d868721374",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_lights_d.color.png",
+        "emissive": false,
+        "normalMap": "vehicles/vivace/vivace_lights_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/vivace/vivace_lights_r.color.png",
+        "specularMap": "vehicles/vivace/vivace_lights_s.color.png",
+        "specularPower": 128
+      },
+      {
+        "colorMap": "vehicles/vivace/vivace_lights_g.color.png",
+        "emissive": true,
+        "glow": true,
+        "pixelSpecular": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "vivace_lights_signal": {
+    "name": "vivace_lights_signal",
+    "mapTo": "vivace_lights_signal",
+    "class": "material",
+    "persistentId": "ee7e0cbd-36ba-45d8-a25a-a2d868721374",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_lights_d.color.png",
+        "normalMap": "vehicles/vivace/vivace_lights_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/vivace/vivace_lights_r.color.png",
+        "specularMap": "vehicles/vivace/vivace_lights_s.color.png",
+        "specularPower": 128
+      },
+      {
+        "colorMap": "vehicles/vivace/vivace_lights_g.color.png",
+        "diffuseColor": [
+          1,
+          0.6,
+          0.1,
+          4
+        ],
+        "emissive": true,
+        "glow": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "vivace_logo": {
+    "name": "vivace_logo",
+    "mapTo": "vivace_logo",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_logo_d.dds",
+        "normalMap": "vehicles/vivace/vivace_logo_n.dds",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/vivace/vivace_logo_s.dds",
+        "specularMap": "vehicles/vivace/vivace_logo_s.dds",
+        "specularPower": 64
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 70,
+    "alphaTest": true,
+    "castShadows": false,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "materialTag2": "decal",
+    "translucent": true
+  },
+  "vivace_lowbeam": {
+    "name": "vivace_lowbeam",
+    "mapTo": "vivace_lowbeam",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_main": {
+    "name": "vivace_main",
+    "mapTo": "vivace",
+    "class": "Material",
+    "persistentId": "c149d182-981e-4864-8d0d-6449b0372ece",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/vivace_main_ao.data.png",
+        "baseColorMap": "/vehicles/vivace/vivace_main_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/vivace/vivace_main_m.data.png",
+        "normalMap": "vehicles/vivace/vivace_main_nm.normal.png",
+        "roughnessMap": "/vehicles/vivace/vivace_main_r.data.png",
+        "useAnisotropic": true
+      },
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/vivace_main_ao.data.png",
+        "clearCoatFactor": 1,
+        "clearCoatMap": "/vehicles/vivace/vivace_main_cc.data.png",
+        "clearCoatRoughnessFactor": 1,
+        "colorPaletteMap": "/vehicles/common/nullcolormaskR.dds",
+        "colorPaletteMapUseUV": 1,
+        "instanceDiffuse": true,
+        "metallicFactor": 1,
+        "normalMap": "/vehicles/vivace/vivace_main_nm.normal.png",
+        "opacityMap": "/vehicles/vivace/vivace_main_c.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "activeLayers": 2,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "vivace_mechanical": {
+    "name": "vivace_mechanical",
+    "mapTo": "vivace_mechanical",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/vivace_mechanical_ao.data.png",
+        "baseColorMap": "/vehicles/vivace/vivace_mechanical_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/vivace/vivace_mechanical_m.data.png",
+        "normalMap": "vehicles/vivace/vivace_mechanical_nm.normal.png",
+        "roughnessMap": "/vehicles/vivace/vivace_mechanical_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "vivace_old": {
+    "name": "vivace_old",
+    "mapTo": "vivace_old",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "vehicles/common/null.dds",
+        "normalMap": "vehicles/vivace/vivace_n.dds",
+        "pixelSpecular": true,
+        "specularMap": "vehicles/common/null.dds",
+        "specularPower": 128,
+        "useAnisotropic": true
+      },
+      {
+        "colorMap": "vehicles/vivace/vivace_d.dds",
+        "normalMap": "vehicles/vivace/vivace_n.dds",
+        "pixelSpecular": true,
+        "specularMap": "vehicles/vivace/vivace_s.dds",
+        "specularPower": 32,
+        "useAnisotropic": true
+      },
+      {
+        "colorMap": "vehicles/vivace/vivace_c.dds",
+        "instanceDiffuse": true,
+        "normalMap": "vehicles/vivace/vivace_n.dds",
+        "pixelSpecular": true,
+        "specularMap": "vehicles/vivace/vivace_s.dds",
+        "specularPower": 10,
+        "useAnisotropic": true
+      },
+      {}
+    ],
+    "alphaRef": 0,
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentBlendOp": "None"
+  },
+  "vivace_raceparts1": {
+    "name": "vivace_raceparts1",
+    "mapTo": "vivace_raceparts1",
+    "class": "material",
+    "persistentId": "342cb0aa-f2c4-4dac-a91b-002f67273ccd",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/vehicles/vivace/vivace_raceparts1_ao.color.png",
+        "baseColorMap": "/vehicles/vivace/vivace_raceparts1_b.color.png",
+        "metallicFactor": 1,
+        "metallicMap": "/vehicles/vivace/vivace_raceparts1_m.data.png",
+        "normalMap": "vehicles/vivace/vivace_raceparts1_n.normal.png",
+        "roughnessMap": "/vehicles/vivace/vivace_raceparts1_r.data.png",
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "dynamicCubemap": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "order_simset": 0,
+    "version": 1.5
+  },
+  "vivace_reverselight": {
+    "name": "vivace_reverselight",
+    "mapTo": "vivace_reverselight",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_signal_L": {
+    "name": "vivace_signal_L",
+    "mapTo": "vivace_signal_L",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_signal_R": {
+    "name": "vivace_signal_R",
+    "mapTo": "vivace_signal_R",
+    "class": "material",
+    "persistentId": "",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_taillight": {
+    "name": "vivace_taillight",
+    "mapTo": "vivace_taillight",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "vivace_windshield_dmg": {
+    "name": "vivace_windshield_dmg",
+    "mapTo": "vivace_windshield_dmg",
+    "class": "Material",
+    "persistentId": "64192537-4ee6-4caa-8c8d-e835635f0c94",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/vivace_glass_damage_d.color.png",
+        "diffuseColor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "normalMap": "vehicles/vivace/vivace_glass_damage_n.normal.png",
+        "pixelSpecular": true,
+        "reflectivityMap": "vehicles/vivace/vivace_glass_damage_d.color.png",
+        "specularMap": "vehicles/vivace/vivace_glass_damage_s.color.png",
+        "specularPower": 64,
+        "useAnisotropic": true
+      },
+      {
+        "colorMap": "vehicles/vivace/vivace_glass_damage_da.color.png",
+        "diffuseColor": [
+          1,
+          1,
+          1,
+          0.97
+        ],
+        "useAnisotropic": true
+      },
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "castShadows": false,
+    "doubleSided": true,
+    "dynamicCubemap": true,
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentRecvShadows": true
+  },
+  "windshield_frit": {
+    "name": "windshield_frit",
+    "mapTo": "windshield_frit",
+    "class": "Material",
+    "persistentId": "64192537-4ee6-4caa-8c8d-e835635f0c94",
+    "Stages": [
+      {
+        "colorMap": "vehicles/vivace/windshield_frit_d.dds",
+        "diffuseColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "pixelSpecular": true,
+        "specularMap": "vehicles/common/null.dds",
+        "specularPower": 64,
+        "useAnisotropic": true
+      },
+      {},
+      {},
+      {}
+    ],
+    "castShadows": false,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "translucent": true,
+    "translucentRecvShadows": true
+  }
+}
