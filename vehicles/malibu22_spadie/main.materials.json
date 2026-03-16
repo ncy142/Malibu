@@ -237,9 +237,9 @@
     "Stages": [
       {
         "baseColorFactor": [
-          0.05,
-          0.05,
-          0.05,
+          0.01,
+          0.01,
+          0.01,
           1
         ],
         "detailNormalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_carpet.dds",
@@ -380,9 +380,9 @@
     "Stages": [
       {
         "baseColorFactor": [
-          0.1,
-          0.1,
-          0.1,
+          0.02,
+          0.02,
+          0.02,
           1
         ],
         "normalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_leather_normals.jpg",
@@ -550,9 +550,9 @@
       {
         "ambientOcclusionMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_headliner_ao.data.dds",
         "baseColorFactor": [
-          0.2,
-          0.2,
-          0.2,
+          0.05,
+          0.05,
+          0.05,
           1
         ],
         "normalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_headliner_n.normal.dds"
@@ -602,9 +602,9 @@
     "Stages": [
       {
         "baseColorFactor": [
-          0.15,
-          0.15,
-          0.15,
+          0.03,
+          0.03,
+          0.03,
           1
         ],
         "detailNormalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_plastic_normal.jpg",
@@ -788,9 +788,9 @@
     "Stages": [
       {
         "baseColorFactor": [
-          0.08,
-          0.08,
-          0.08,
+          0.02,
+          0.02,
+          0.02,
           1
         ],
         "detailNormalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_perf.dds",
@@ -1082,9 +1082,9 @@
     "Stages": [
       {
         "baseColorFactor": [
-          0.08,
-          0.08,
-          0.08,
+          0.02,
+          0.02,
+          0.02,
           1
         ],
         "detailNormalMap": "/vehicles/malibu22_spadie/textures/malibu22_spadie_plastic_normal.jpg",
