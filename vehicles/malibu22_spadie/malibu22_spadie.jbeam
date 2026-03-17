@@ -35,8 +35,6 @@
             "malibu22_spadie_red_needles":{"simpleFunction":"running", "off":"invis", "on":"malibu22_spadie_red_needles"},
             "malibu22_spadie_screens":{"simpleFunction":"running", "off":"malibu22_spadie_screens", "on":"malibu22_spadie_screens_infotament"},
 
-            "malibu22_spadie_gauges_metric":{"simpleFunction":"lowhighbeam", "off":"malibu22_spadie_gauges_metric", "on":"malibu22_spadie_gauges_metric_on"},
-
             //gauge lights
             "signal_L":{"simpleFunction":"signal_L", "off":"invis", "on":"bastion_decals_gauges"},
             "signal_R":{"simpleFunction":"signal_R", "off":"invis", "on":"bastion_decals_gauges"},
