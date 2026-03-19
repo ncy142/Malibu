@@ -12,7 +12,7 @@ At a high level, BeamNG builds the vehicle like this:
 2. Reads the main vehicle definition: `malibu22_spadie.jbeam`
 3. Follows `slots` from JBeam files to attach all selected parts (body, engine, suspension, wheels, lights, etc.)
 4. Applies materials from `*.materials.json`
-5. Loads mesh data from `malibui22_spadie.cached.dts`
+5. Loads mesh data from `malibui22_spadie.cached.dts` (this exact spelling is the filename in this repo)
 6. Applies config selections from `.pc` files
 7. Shows metadata/previews from `info*.json` and `*.jpg`
 
@@ -164,7 +164,7 @@ What `.pc` files do:
 - `screens.materials.json` - digital screen/gauge screen materials
 
 ### Borrowed/vanilla material bundles
-Folder: `vinillia_materials_main/`
+Folder: `vinillia_materials_main/` (this exact spelling is the folder name in this repo)
 - `bastion.materials.json`
 - `lansdale.materials.json`
 - `legarn.materials.json`
